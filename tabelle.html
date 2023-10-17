@@ -1,0 +1,460 @@
+  <style>
+    .wrapper-main {
+      width: 1080px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .navigation-bar {
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      margin-bottom: 10px;
+    }
+
+    .navigation-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s ease;
+    }
+
+    .navigation-item.active {
+      color: black;
+      font-weight: bold;
+    }
+
+    .navigation-item:hover {
+      color: #666;
+    }
+
+    .navigation-item .title {
+      font-size: 18px;
+    }
+
+    .navigation-item .description {
+      font-size: 14px;
+      margin-top: 5px;
+      text-align: center;
+      border-top: 1px solid #ccc;
+      padding-top: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th {
+      background-color: #363636;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .th_custom {
+      text-align: center;
+    }
+
+    .th_custom_click {
+      cursor: pointer;
+    }
+
+    .th_custom_click_center {
+      cursor: pointer;
+      text-align: center;
+    }
+
+    th.sorted {
+      background-color: #ccc;
+    }
+
+    td {
+      padding: 10px;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    td a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    td a:hover {
+      text-decoration: underline;
+    }
+
+    .image-cell {
+      width: 60px;
+      height: 60px;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+
+    .image-cell img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .score-cell {
+      font-weight: 400;
+      text-align: center;
+      padding: 5px;
+      border-radius: 4px;
+    }
+
+    .good {
+      background-color: #4caf50;
+      color: #fff;
+    }
+
+    .average {
+      background-color: #4765dd;
+      color: #fff;
+    }
+
+    .poor {
+      background-color: #4e4e4e;
+      color: #fff;
+    }
+
+    .search-container {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      border-color: #666;
+    }
+
+    .search-box {
+      flex: 1;
+      padding: 5px;
+      font-size: 14px;
+      border: 1px solid;
+      border-color: #666;
+    }
+
+    .search-button {
+      margin-left: 10px;
+      padding: 5px 10px;
+      background-color: #007daa;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .search-button:hover {
+      background-color: #aaa;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .teaser__content-meta-readtime {
+      display: none;
+    }
+
+    .teaser__content-meta {
+      display: none;
+    }
+
+    .article-teaser.text--intro {
+      display: none;
+    }
+
+    .headline.headline--1 {
+      display: none;
+    }
+
+    .headline.headline--topline {
+      display: none;
+    }
+
+    .name-cell p {
+      color: #444444;
+      font-size: 14px;
+    }
+
+    .pagination-container {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pagination-button {
+      margin: 5px;
+      padding: 5px 10px;
+      background-color: #007daa;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .pagination-button:hover {
+      background-color: #aaa;
+    }
+
+    .centered {
+        text-align: center;
+    }
+    .wrapper-full {
+        max-width: 1080px;
+    }
+
+.lead {
+font-size: 18px;
+font-weight: 700;
+line-size: 1,5em;
+}
+
+
+  </style>
+
+
+
+    <div class="navigation-bar">
+      <a href="https://industriemagazin.at/top-manager/rangreihung-2023" class="navigation-item">
+        <span class="title">Die Rangreihung</span>
+        <span class="description">Alles über das Ranking und die Methode</span>
+      </a>
+      <a href="https://industriemagazin.at/top-manager/top-1000-2023" class="navigation-item active">
+        <span class="title">Die TOP 1000</span>
+        <span class="description">Die Datenbank der Führungskräfte</span>
+      </a>
+      <a href="https://industriemagazin.at/top-manager/die-manager-2023" class="navigation-item">
+        <span class="title">Die Manager</span>
+        <span class="description">Alle Führungskräfte in der Analyse</span>
+      </a>
+    </div>
+
+    <p class="lead">Kann man Einfluss objektiv messen? Man kann. Die Statistiker von FAS Research analysierten für INDUSTRIEMAGAZIN das Netzwerk der Führungskräfte der 5000 größten Unternehmen dieses Landes. Wer punktet bei Vernetzung, Umsatzkraft und Branchenvariabilität? Das sind Österreichs tausend wichtigste Manager.</h4>
+    <p>Basis des Rankings sind die Firmenbuchdaten aller Personen in Österreichs 5000 umsatzstärksten Industriebetrieben sowie der mit jenen verbundenen Privatstiftungen.</p>
+    <table id="data-table">
+      <thead>
+  <tr>
+    <th></th>
+    <th class="th_custom_click" onclick="sortTable('rank')">#</th>
+    <th>Person</th>
+    <th class="th_custom_click_center" onclick="sortTable('overall_score')">Gesamtbewertung</th>
+    <th class="th_custom_click_center" onclick="sortTable('networking_skills_score')">Netzwerk</th>
+    <th class="th_custom_click_center" onclick="sortTable('sales_score')">Umsatz</th>
+    <th class="th_custom_click_center" onclick="sortTable('variability_score')">Variabilität</th>
+    <th class="th_custom_click" onclick="sortTable('system_risk')">Systemrelevanz</th> 
+  </tr>
+</thead>
+      <tbody></tbody>
+    </table>
+    <div class="search-container">
+      <input type="text" id="search-box" class="search-box" placeholder="Name eingeben...">
+      <button class="search-button" onclick="search()">Suche</button>
+    </div>
+    <div id="pagination" class="pagination-container"></div></div>
+
+    <script>
+      let data = [];
+      let sortColumn = "";
+      let sortDirection = "";
+      let currentPage = 1;
+      const rowsPerPage = 10;
+
+      fetch("https://raw.githubusercontent.com/imverlag/manager-ranking/main/list_2023.json")
+        .then((response) => response.json())
+        .then((jsonData) => {
+          data = jsonData;
+          renderTable();
+          renderPagination();
+        });
+
+        function renderTable(results) {
+        const tableBody = document.querySelector("#data-table tbody");
+        tableBody.innerHTML = "";
+
+        const items = results || data;
+        const startIndex = (currentPage - 1) * rowsPerPage;
+        const endIndex = startIndex + rowsPerPage;
+
+        const paginatedItems = items.slice(startIndex, endIndex);
+
+        paginatedItems.forEach((item) => {
+          const row = document.createElement("tr");
+
+          const imageCell = document.createElement("td");
+          const imageContainer = document.createElement("div");
+          imageContainer.classList.add("image-cell");
+          const image = document.createElement("img");
+          image.src = item.image_url;
+          image.alt = "";
+          imageContainer.appendChild(image);
+          imageCell.appendChild(imageContainer);
+          row.appendChild(imageCell);
+
+          const rankCell = document.createElement("td");
+          rankCell.textContent = item.rank;
+          row.appendChild(rankCell);
+
+// Inside the loop that creates table rows
+const nameCell = document.createElement("td");
+nameCell.classList.add("name-cell");
+const nameLink = document.createElement("a");
+
+// Split the link_url by '/' and take the last part as the desired link
+const parts = item.link_url.split('/');
+const lastPart = parts[parts.length - 1];
+
+// Construct the desired link with "/top-manager/" in the middle
+const desiredLink = `https://www.industriemagazin.at/top-manager/${lastPart}`;
+
+nameLink.href = desiredLink; // Use the modified link
+nameLink.textContent = item.first_name + " " + item.last_name;
+nameCell.appendChild(nameLink);
+const companyText = document.createElement("p");
+companyText.textContent = item.company_name;
+nameCell.appendChild(companyText);
+row.appendChild(nameCell);
+
+
+
+
+          const overallScoreCell = document.createElement("td");
+          overallScoreCell.textContent = item.overall_score;
+          overallScoreCell.classList.add("score-cell");
+          if (item.overall_score >= 80) {
+            overallScoreCell.classList.add("good");
+          } else if (item.overall_score >= 50) {
+            overallScoreCell.classList.add("average");
+          } else {
+            overallScoreCell.classList.add("poor");
+          }
+          row.appendChild(overallScoreCell);
+
+          const networkingSkillsScoreCell = document.createElement("td");
+          networkingSkillsScoreCell.textContent = item.networking_skills_score;
+          networkingSkillsScoreCell.classList.add("score-cell", "networking-score");
+          row.appendChild(networkingSkillsScoreCell);
+
+          const salesScoreCell = document.createElement("td");
+          salesScoreCell.textContent = item.sales_score;
+          salesScoreCell.classList.add("score-cell", "sales-score");
+          row.appendChild(salesScoreCell);
+
+          const variabilityScoreCell = document.createElement("td");
+          variabilityScoreCell.textContent = item.variability_score;
+          variabilityScoreCell.classList.add("score-cell", "variability-score");
+          row.appendChild(variabilityScoreCell);
+
+          const systemRiskCell = document.createElement("td");
+    systemRiskCell.textContent = item.risk_score; // Assuming your JSON data has a property named 'system_risk'
+    systemRiskCell.classList.add("score-cell", "risk-score");
+    row.appendChild(systemRiskCell);
+
+          tableBody.appendChild(row);
+        });
+      }
+
+      function sortTable(column) {
+        if (sortColumn === column) {
+          sortDirection = sortDirection === "asc" ? "desc" : "asc";
+        } else {
+          sortColumn = column;
+          sortDirection = "asc";
+        }
+
+        data.sort((a, b) => {
+          const valueA = a[column];
+          const valueB = b[column];
+
+          if (sortDirection === "asc") {
+            return valueA > valueB ? 1 : -1;
+          } else {
+            return valueA < valueB ? 1 : -1;
+          }
+        });
+
+        renderTable();
+        renderPagination();
+      }
+
+      function search() {
+  const searchBox = document.querySelector("#search-box");
+  const searchTerm = searchBox.value.trim().toLowerCase();
+  const filteredData = data.filter((item) => {
+    const fullName = `${item.first_name} ${item.last_name}`.toLowerCase();
+    return fullName.includes(searchTerm);
+  });
+  renderTable(filteredData);
+
+  // Check if clear button already exists
+  const clearButton = document.querySelector("#clear-button");
+  if (!clearButton) {
+    // Create clear button
+    const clearButton = document.createElement("button");
+    clearButton.textContent = "Zurücksetzen";
+    clearButton.id = "clear-button";
+    clearButton.classList.add("search-button");
+    clearButton.addEventListener("click", () => {
+      searchBox.value = ""; // Clear search box
+      renderTable(); // Render the original table
+      clearButton.remove(); // Remove the clear button
+    });
+
+    const searchContainer = document.querySelector(".search-container");
+    searchContainer.appendChild(clearButton);
+  }
+}
+
+// Trigger search on Enter key press
+const searchBox = document.querySelector("#search-box");
+searchBox.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault(); // Prevent form submission
+    search(); // Trigger search function
+  }
+});
+
+
+
+
+function renderPagination() {
+    const paginationContainer = document.querySelector("#pagination");
+    paginationContainer.innerHTML = "";
+
+    const totalPages = Math.ceil(data.length / rowsPerPage);
+
+    if (totalPages <= 1) {
+        return;
+    }
+
+    const createButton = (text, handler, disabled = false) => {
+        const button = document.createElement("button");
+        button.classList.add("pagination-button");
+        button.textContent = text;
+        button.disabled = disabled;
+        button.addEventListener("click", handler);
+        paginationContainer.appendChild(button);
+    };
+
+    createButton("Anfang", () => { currentPage = 1; updateView(); }, currentPage === 1);
+    createButton("Zurück", () => { currentPage--; updateView(); }, currentPage === 1);
+
+    const startPage = Math.max(1, currentPage - 2);
+    const endPage = Math.min(totalPages, currentPage + 2);
+
+    for (let i = startPage; i <= endPage; i++) {
+        createButton(i, () => { currentPage = i; updateView(); }, currentPage === i);
+    }
+
+    createButton("Weiter", () => { currentPage++; updateView(); }, currentPage === totalPages);
+    createButton("Ende", () => { currentPage = totalPages; updateView(); }, currentPage === totalPages);
+}
+
+function updateView() {
+    renderTable();
+    renderPagination();
+}
+    </script>
