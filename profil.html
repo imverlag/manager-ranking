@@ -235,7 +235,7 @@
 
   .wrapper-full {
     max-width: 1080px;
-    margin: 0 auto; /* Center the content horizontally */
+    margin: 0 auto; 
   }
 
   .link-empfehlung {
@@ -275,8 +275,8 @@
 
 @media only screen and (max-width: 768px) {
   .link-empfehlung {
-    font-size: 16px; /* Adjust font size for mobile */
-    line-height: 1.2; /* Adjust line height for better spacing on mobile */
+    font-size: 16px; 
+    line-height: 1.2; 
   }
 }
 
@@ -363,9 +363,13 @@
       fetch('https://raw.githubusercontent.com/imverlag/manager-ranking/main/list_2023.json')
         .then(response => response.json())
         .then(data => {
-          // Get the user ID from the URL or specify it manually
+         
+          
+          // DIE ID WIRD HIER MANUELL GEÄNDERT ###############
           const urlParams = new URLSearchParams(window.location.search);
           const userId = urlParams.get('id') || 1; // Default to ID 1 if not specified
+
+
           // Find the user object with the specified ID
           const user = data.find(user => user.id === parseInt(userId, 10));
           if (user) {
