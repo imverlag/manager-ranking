@@ -317,6 +317,7 @@ const desiredLink = `https://www.industriemagazin.at/top-manager/${lastPart}`;
 
 nameLink.href = desiredLink; // Use the modified link
 nameLink.textContent = item.first_name + " " + item.last_name;
+nameLink.target = "_blank";
 nameCell.appendChild(nameLink);
 const companyText = document.createElement("p");
 companyText.textContent = item.company_name;
