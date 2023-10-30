@@ -5,6 +5,7 @@
     .headline.headline--1,
     .headline.headline--topline {
       display: none;}
+
    
    
       #wrapper {
@@ -14,6 +15,7 @@
      }
    
      #profile-image-container {
+        position: relative;
        width: 200px;
        height: 200px;
        border-radius: 50%;
@@ -360,6 +362,38 @@
          font-size: 12px;
        }
      }
+     .profile-navigation-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-arrow {
+  font-size: 32px; /* Increase font size for bigger arrows */
+  text-decoration: none;
+  color: black;
+  margin: 0 20px; /* Adjust the space between the arrows and the profile image */
+  font-weight: 700; /* Make the arrows thicker */
+  transition: transform 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.nav-arrow:hover {
+  transform: scale(1.1); /* Make the arrow slightly larger on hover */
+  color: #555; /* Change color on hover */
+}
+
+
+#profile-image-container {
+  /* Add any additional styles you need for the profile image container */
+}
+
+#profile-image {
+  border-radius: 50%;
+  width: 250px; /* Adjust as needed */
+  height: 250px; /* Adjust as needed */
+  object-fit: cover;
+}
+
    
    </style>
    
@@ -380,9 +414,14 @@
        </a>
      </div>
      <div id="wrapper">
-       <div id="profile-image-container">
-         <img id="profile-image" src="">
-       </div>
+        <div class="profile-navigation-container">
+            <a id="left-arrow" class="nav-arrow" href="">←</a>
+            <div id="profile-image-container">
+              <img id="profile-image" src="">
+            </div>
+            <a id="right-arrow" class="nav-arrow" href="">→</a>
+          </div>
+          
        <div id="rank"></div>
        <div id="name-container">
          <h1 id="full-name"></h1>
@@ -512,6 +551,24 @@
                // Set the variability score percent
                const variabilityScoreElement = document.getElementById('variability-score');
                variabilityScoreElement.textContent = `${variabilityScore}%`;
+
+               const leftArrow = document.getElementById('left-arrow');
+const rightArrow = document.getElementById('right-arrow');
+
+if (user.nav_link_l) {
+  leftArrow.href = 'https://' + user.nav_link_l;
+} else {
+  leftArrow.style.display = 'none'; // Hide the arrow if there is no link
+}
+
+if (user.nav_link_r) {
+  rightArrow.href = 'https://' + user.nav_link_r;
+} else {
+  rightArrow.style.display = 'none'; // Hide the arrow if there is no link
+}
+
+
+
                // Fetch and display articles
                async function fetchLatestArticles() {
                  const url = 'https://industriemagazin.at/api';
