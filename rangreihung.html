@@ -1,216 +1,222 @@
+<script src="https://kit.fontawesome.com/8427e47a9f.js" crossorigin="anonymous"></script>
 <style>
-    #wrapper {
-      text-align: center;
-      margin: 0;
-      padding: 20px;
-      font-family: Arial, sans-serif;
-    }
 
-    #profile-image-container {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      overflow: hidden;
-      margin: 0 auto 20px;
-    }
+  .wrapper-full {
+    max-width: 900px;
+  }
 
-    #profile-image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  #wrapper {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
 
-    #name-container {
-      margin-bottom: 10px;
-    }
+  #profile-image-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+  }
 
-    #name-container h1 {
-      margin: 0;
-      padding: 0;
-    }
+  #profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
-    #rank {
-      font-size: 12px;
-      color: gray;
-    }
+  #name-container {
+    margin-bottom: 10px;
+  }
 
-    #job-details {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 10px;
-    }
+  #name-container h1 {
+    margin: 0;
+    padding: 0;
+  }
 
-    #job-description,
-    #company-name {
-      margin: 0;
-      padding: 0;
-    }
+  #rank {
+    font-size: 12px;
+    color: gray;
+  }
 
-    #job-description {
-      margin-right: 5px;
-    }
+  #job-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
 
-    #vertical-line {
-      margin: 0 5px;
-    }
+  #job-description,
+  #company-name {
+    margin: 0;
+    padding: 0;
+  }
 
-    #company-name {
-      font-weight: bold;
-    }
+  #job-description {
+    margin-right: 5px;
+  }
 
-    .score-wrapper {
-      margin: 0 auto;
-      margin-top: 40px;
-      text-align: center;
-    }
+  #vertical-line {
+    margin: 0 5px;
+  }
 
-    .score-label {
-      font-size: 16px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
+  #company-name {
+    font-weight: bold;
+  }
 
-    .score-range {
-      width: 100%;
-      height: 10px;
-      background-color: #f2f2f2;
-      margin-bottom: 10px;
-      position: relative;
-    }
+  .score-wrapper {
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+  }
 
-    .score-line {
-      width: 0;
-      height: 100%;
-      transition: width 0.5s ease-in-out;
-    }
+  .score-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 
-    #score-line {
-      background-color: #1f77b4; /* Blue */
-    }
+  .score-range {
+    width: 100%;
+    height: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    position: relative;
+  }
 
-    #networking-skills-line {
-      background-color: green;
-    }
+  .score-line {
+    width: 0;
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+  }
 
-    #sales-line {
-      background-color: orange;
-    }
+  #score-line {
+    background-color: #1f77b4; /* Blue */
+  }
 
-    #risk-line {
-      background-color: rgb(20, 117, 114);
-    }
+  #networking-skills-line {
+    background-color: green;
+  }
 
-    #variability-score-line {
-      background-color: red;
-    }
+  #sales-line {
+    background-color: orange;
+  }
 
-    #sector-variability-line,
-    #internationality-line,
-    #age-variability-line,
-    #female-share-line {
-      background-color: darkgray;
-    }
+  #risk-line {
+    background-color: rgb(20, 117, 114);
+  }
 
-    .score-percent {
-      margin-top: 10px;
-      font-size: 14px;
-      font-weight: bold;
-    }
+  #variability-score-line {
+    background-color: red;
+  }
 
-    .flex-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin-top: 40px;
-    }
+  #sector-variability-line,
+  #internationality-line,
+  #age-variability-line,
+  #female-share-line {
+    background-color: darkgray;
+  }
 
-    .score-wrapper-small {
-      flex-basis: 100%;
-      background-color: #f9f9f9;
-      padding: 10px;
-      border-radius: 5px;
-    }
+  .score-percent {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
 
-    .user-description {
-      margin-bottom: 10px;
-    }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
 
-    .score-description {
-      font-size: 12px;
-      color: #777;
-    }
-    .teaser__content-meta-readtime {
-    display:none;
+  .score-wrapper-small {
+    flex-basis: 100%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .user-description {
+    margin-bottom: 10px;
+  }
+
+  .score-description {
+    font-size: 12px;
+    color: #777;
+  }
+  .teaser__content-meta-readtime {
+  display:none;
 }
-    .teaser__content-meta {
-    display:none;
+  .teaser__content-meta {
+  display:none;
 }
-    .article-teaser.text--intro {
-    display:none;
+  .article-teaser.text--intro {
+  display:none;
 }
-    .headline.headline--1 {
-    display:none;
+  .headline.headline--1 {
+  display:none;
 }
-    .headline.headline--topline {
-    display:none;
+  .headline.headline--topline {
+  display:none;
 }
 
 .navigation-bar {
-  display: flex;
-  justify-content: space-evenly;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 10px;
+display: flex;
+justify-content: space-evenly;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+margin-bottom: 10px;
 }
 
 .navigation-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  color: #333;
-  transition: color 0.3s ease;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-decoration: none;
+color: #333;
+transition: color 0.3s ease;
 }
 
 .navigation-item.active {
-  color: black;
-  font-weight: bold;
+color: black;
+font-weight: bold;
 
 }
 
 .navigation-item:hover {
-  color: #666;
+color: #666;
 }
 
 .navigation-item .title {
-  font-size: 18px;
+font-size: 18px;
 }
 
 .navigation-item .description {
-  font-size: 14px;
-  margin-top: 5px;
-  text-align: center;
-  border-top: 1px solid #ccc;
-  padding-top: 5px;
+font-size: 14px;
+margin-top: 5px;
+text-align: center;
+border-top: 1px solid #ccc;
+padding-top: 5px;
 }
 
 .layout {
-  display: flex;
-  gap: 16px;
+display: flex;
+gap: 16px;
 }
 
 @media only screen and (max-width: 768px) {
-  .layout {
-    display: flex;
-    flex-direction: column;
-  }
+.layout {
+  display: flex;
+  flex-direction: column;
+}
 }
 .trennlinie {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 margin-top: 25px;
 margin-bottom: 25px;
 }
@@ -265,7 +271,7 @@ font-size: 14px;
 color: #575656;
 }
 .wrapper-full {
-    max-width: 1080px;
+  max-width: 1080px;
 }
 
 .link-empfehlung {
@@ -282,41 +288,41 @@ margin-top: 0px;
 }
 
 .link-empfehlung:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .cover {
-    max-width: 1080px;
+  max-width: 1080px;
 }
 
 .stage {
 max-width: 1080px;
-  height: auto;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 40% 60%;
-  gap: 18px;
+height: auto;
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 40% 60%;
+gap: 18px;
 }
 
 .profilbild {
 border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 100%;
-  }
+border-radius: 4px;
+padding: 5px;
+width: 100%;
+}
 
 
 .stage2 {
-  height: auto;
+height: auto;
 max-width: 1080px;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 60% 40%;
-  gap: 18px;
-  }
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 60% 40%;
+gap: 18px;
+}
 
 .info {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 .bildtext {
@@ -328,90 +334,500 @@ margin-top: 10px;
 .lead {
 font-size: 18px;
 font-weight: 700;
-line-size: 1,5em;
+line-height: 2em;
 }
 
-  </style>
+.aufmacher {
+margin-bottom: 15px;
+}
+
+.split1{
+  display: grid;
+  grid:
+    "sidebar body" 1fr
+    / auto 35%;
+  gap: 20px;
+}
+
+.sidebar1 { grid-area: sidebar; }
+.body1 { grid-area: body; }
+
+.box1 {
+background-color: #c8d1e0;
+padding: 15px;
+}
+
+.box-text1 {
+font-size: 12px;
+margin-bottom: 0px;
+}
+
+.box-text2 {
+font-size: 14px;
+margin-bottom: 0px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.profilbox {
+
+}
+
+.profil-foto {
+width: 100%;
+max-height: 300px;
+border-radius: 15px;
+object-fit: cover;
+}
+
+.bühne-links {
+
+  display: grid;
+  grid:
+    "foto-box profil-info" 1fr
+    / 40% 1fr;
+  gap: 20px;
+}
+
+.bühne-rechts{
+
+  display: grid;
+  grid:
+    "foto-box profil-info" 1fr
+    / 1fr 40%;
+  gap: 20px;
+}
+
+.foto-box { grid-area: foto-box; }
+.profil-info { grid-area: profil-info; }
+
+.faq-title {
+    font-size: 2em;
+    margin: 0.4em 0;
+}
+
+div.seperator {
+    width: 7.5em;
+    background-color: #007daa;
+    height: 0.17em;
+    margin-left: -1.8em;
+}
+
+.faq-list > div {
+    border-bottom: 0.07em solid #ededed;
+    padding: 1.5em 0em;
+} 
+
+.faq-list > div:last-child {
+    border: unset;
+}
+
+details > summary {
+    list-style: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+summary {
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+    transition: all 0.3s ease;
+}
+
+summary:hover {
+    color: #007daa;
+}
+
+details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+    0%    {opacity: 0; margin-left: -10px}
+    100%  {opacity: 1; margin-left: 55px}
+}
+
+details[open] summary {
+    color: #007daa;
+}
+
+details[open] p {
+    border-left: 2px solid #007daa;
+    margin-left: 55px;
+    padding-left: 25px;
+    opacity: 100;
+    transition: all 3s ease;
+}
+
+details[open] summary:after {
+    content: "-";
+    font-size: 3.2em;
+    margin: -33px 0.35em 0 0;
+    font-weight: 200;
+}
+
+.faq-body {
+    width: 100%;
+    margin: 4em auto;
+    box-shadow: 0px 0px 16px #5b5b5b;
+    border-radius: 0.2em;
+    padding: 5em;
+    background-color: #fff;
+}
+
+.faq-list {
+    width: 55em;
+    margin: 1em auto;
+    padding: 2em 0;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:after {
+    background: transparent;
+    border-radius: 0.3em;
+    content: "+";
+    color: #007daa;
+    float: left;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: -0.3em 0.65em 0 0;
+    padding: 0;
+    text-align: center;
+    width: 25px;
+}
+
+</style>
 <div class="wrapper-full">
 
-    <div class="navigation-bar">
-      <a href="https://industriemagazin.at/top-manager/rangreihung" class="navigation-item active">
-        <span class="title">Die Rangreihung</span>
-        <span class="description">Das Manager-Ranking im Überblick</span>
-      </a>
-      <a href="https://industriemagazin.at/top-manager/top-1000" class="navigation-item">
-        <span class="title">Die TOP 1000</span>
-        <span class="description">Die Datenbank der Führungskräfte</span>
-      </a>
-      <a href="https://industriemagazin.at/top-manager/die-manager" class="navigation-item">
-        <span class="title">Die Manager</span>
-        <span class="description">Alle Führungskräfte in der Analyse</span>
-      </a></div>
- 
+  <div class="navigation-bar">
+    <a href="https://industriemagazin.at/top-manager/rangreihung" class="navigation-item active">
+      <span class="title">Die Rangreihung</span>
+      <span class="description">Das Manager-Ranking im Überblick</span>
+    </a>
+    <a href="https://industriemagazin.at/top-manager/top-1000" class="navigation-item">
+      <span class="title">Die TOP 1000</span>
+      <span class="description">Die Datenbank der Führungskräfte</span>
+    </a>
+    <a href="https://industriemagazin.at/top-manager/die-manager" class="navigation-item">
+      <span class="title">Die Personen</span>
+      <span class="description">Alle Führungskräfte in der Einzelanalyse</span>
+    </a></div>
 
 
-    <p class="lead">
-        Basis des Rankings sind die Firmenbuchdaten aller Personen in Österreichs 5000 umsatzstärksten Industriebetrieben, den zehn größten Kreditinstituten (nach Bilanzsumme) sowie den mit jenen verbundenen Privatstiftungen. Aufnahme in die Liste fanden alle in diesen Unternehmen operativ tätigen Menschen (Vorstände, Geschäftsführer) sowie die Aufsichtsrats-Vorsitzenden dieser Unternehmen. Keine Aufnahme in das Ranking fanden wie in den Vorjahren Politiker oder Anwälte. Der Datenstand bezieht sich auf September 2022. Bis zu Redaktionsschluss Ende Oktober 2022 bekannt gewordene wichtige Funktionsänderungen wurden berücksichtigt.
-    </p>
+  <div><img class="aufmacher" src="https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/2311_Aufmacher5.jpg" alt="Das Manager-Ranking">
 
-    <h3>
-        Das sind die zehn einflussreichsten Führungskräfte des Landes 2023
-    </h3>
+  <p class="lead">
+    Einfluss objektiv gemessen: In Kooperation mit dem Strategieberatungsunternehmen FAS Research untersucht INDUSTRIEMAGAZIN die Beziehungsstruktur der 20.000 wichtigsten Führungskräfte der österreichischen Wirtschaft. Für das Ranking der Top 1000 Manager wurden mehr als eine Million Datensätze der 5000 größten Unternehmen gemappt. Das Resultat bildet die komplexe Landschaft des Leaderships in Österreichs Wirtschaft ab: Das sind die 1000 wichtigsten Managerinnen und Manager des Landes.
+  </p>
 
-    <section class="stage">
-        <div><img class="profilbild" src="https://industriemagazin.at/imager/media/industriemagazin/518731/20885_428fd902f4247199467725e7eccf1673.jpg" alt="Italian Trulli">
-<p class="bildtext">Andreas Gerstenmayr, AT&S (Rang 136): Player im Multimilliardenspiel der globalen Wertschöpfungsketten im Halbleiterbereich. - © Helene Waldner</p>
+<section class="split1">
+
+  <div class="sidebar1">
+<p>Was befähigt Führungskräfte, auf Unvorhergesehenes rasch und richtig zu reagieren? Welche Netzwerk- und Beziehungsfaktoren braucht es? Und: Lässt sich Einfluss objektiv messen? Die Analytiker von FAS Research, spezialisiert auf die netzwerkbasierte Erstellung von Lagebildern und Strategien, erarbeiteten in Kooperation mit INDUSTRIEMAGAZIN eine Objektivierung von Einfluss in der österreichischen Wirtschaft. Folgen Sie uns durch die hochgradig komplexe - und nicht minder interaktive - Landschaft des Leaderships in Österreichs Wirtschaft.</p>
+
+<p>
+<b>Lesetipp:</b> <a href="https://industriemagazin.at/fuehren/netzwerkforscher-katzmair-voelliger-shift-der-fundamente " target="_blank">"Wo sich Macht konzentriert"</a>
+</p>
 </div>
-        <div><p class="info">Andreas Gerstenmayr muss man nicht zweimal sagen, dass multiperspektivisches Denken eine lohnende Sache ist. Sage und schreibe 200 Standorte weltweit ließ der Chef des steirischen Leiterplattenherstellers AT&S Andreas Gerstenmayer (Rang 136, 2021: 236) in den vergangenen Monaten prüfen, ehe er schließlich mit dem Bau der 1,7 Miliarden Euro schweren Fabrik im malayischen Kulim Nägel mit Köpfen machte. In einem Multimilliardenspiel wie der Hableiterei, in dem Europas Industrie uneinholbar abgehängt ist, derart distribuiert exklusive Einblicke in der Wertschöpfungskette fernöstlicher Entscheider zu besitzen, machen den AT&S-Manager nicht nur ungemein entscheidungsstark. Jener Mann, der die Halbleiterindustrie mit IC-Substraten beliefert, ist damit auch eine potenziell lohnende Tangente im Netzwerk eines jeden Industriellen. Zumal jetzt: Mit einem erpresserischen Energiekrieg will Putin Europas Gesellschaft durch Deglobalisierung zusetzen. Ein Zeitalter der Limitation (© Macron), aber auch neuer Ambitionen. Unternehmen sollten jetzt alles daran setzen, dort, wo sie "vulnerabel sind, Souveränität zu erlangen", formuliert es der Netzwerkanalytiker und FASresearch-Chef Harald Katzmair.
-        </p></div>
-      </section>
 
-      <hr class="trennlinie">
-
-      <section class="stage2">
-        <div><p class="info">Eine Prämisse, die auch für die von FAS-Research exklusiv für INDUSTRIEMAGAZIN alljährlich erstellte Rangreihung der 1.000 bestvernetzten Manager eine Zäsur darstellt. So haben Umsatz, direkte und indirekte Verbindungen zu Unternehmungen sowie Staat und Zivilgesellschaft und sektorübergreifende Netzwerke - Stichwort Variabilität - in der bewährten Ranking-Methodik Bestand. Aber seit den Verwerfungen auf den Weltmärken sind sie nur die halbe Miete. Dem erstmals im Ranking abgebildete Systemrelevanz (alle Details zur Ranking-Methodik finden Sie im Reiter Die Datenbank) fällt nun besonderes Gewicht zu. Die Benchmark im Referenzwert Systemrelevanz stellt Michael Strugl dar. Der Vorstandschef des größten heimischen Stromversorgers weist angesichts der derzeitigen Knappheit der Ressourcen in dieser Kategorie den Höchstwert auf. Das macht ihn (bei überdurchschnittlichen Werten in den Kategorien Umsatz, Vernetzung und Variabilität) zum wichtigsten der 1000 Topmanager. In den vergangenen Monaten hatte der Verbund-Chef hinreichend Momente zur, wie Katzmair sagt, Wirklichkeitsüberprüfung. Beim Erneuerbaren-Ausbau drückt man aufs Tempo.
-        </p></div>
-        <div><img class="profilbild" src="https://industriemagazin.at/imager/media/industriemagazin/525117/45998_428fd902f4247199467725e7eccf1673.jpg" alt="Italian Trulli">
-<p class="bildtext">Michael Strugl, Verbund (Rang 1): Absoluter Höchstwert bei Systemrelevanz, überdurchschnittlich in den Kategorien Umsatz, Vernetzung und Variabilität. - © Verbund</p>
+  <div class="body1">
+<div class=box1>
+<h4>Wer ist gelistet?</h4>
+<p class="box-text1">
+Basis des Rankings sind die Firmenbuchdaten aller Personen in Österreichs 5000 umsatzstärksten Industriebetrieben, den zehn größten Kreditinstituten (nach Bilanzsumme) sowie den mit jenen verbundenen Privatstiftungen. Aufnahme in die Liste fanden alle in diesen Unternehmen operativ tätigen Menschen (Vorstände, Geschäftsführer) sowie die Aufsichtsrats-Vorsitzenden dieser Unternehmen.
+</p>
 </div>
-      </section>
-
-      <hr class="trennlinie">
-
-    <section class="stage">
-            <div><img class="profilbild" src="https://industriemagazin.at/imager/media/industriemagazin/1776837/Wex-Kopie_2022-06-02-073142_jdmq_428fd902f4247199467725e7eccf1673.jpg" alt="Italian Trulli"><p class="bildtext">Karlheinz Wex, Plansee Group (Rang 195): Befreit sich durch Rückwärtsintegration und Recycling von Abhängigkeiten am globalen Rohstoffmarkt - © Plansee
-</p></div>
-            <div><p class="info">Doch die Kategorie Systemrelvanz umfasst nicht nur den Bereich Energie und die notwendige Dekarbonisierung. Darin ausgerechnet ist auch (in Mandaten aufaggregiert) das Thema Sourcing, also die Materialbeschaffung. Und der Zugangs Informationstechnologie. "Wir sehen in allen drei Säulen: We are challenged", sagt Netzwerkforscher Katzmair. Die gute Nachricht: Jene Führungspersönlichkeiten, deren Unternehmen schon bisher im Kreuzfeuer dieser Wirklichkeiten operierten und ganz vorne (oder ganz hinten) in der Wertschöpfungskette hohe systemische Risiken tragen, sind umso adaptionsfähiger. Das trifft etwa auf den Tiroler Hochleistungswerkstoffhersteller Plansee zu, der den US-Elektronikmulti Apple zu seinen Kunden zählt, durch die Rückwärtsintegration der chilenischen Molymet, dem weltgrößten Hersteller von Molybdän, die Abhängigkeiten auf den Rohstoffmärkten zurück. Der langjährige Vorstandschef Karlheinz Wex (Rang 195) "reduzierte damit auf sehr robuste, systemische Art die Komplexität", beobachtet Katzmair.</p>
-</div></section>
-
-      <hr class="trennlinie">
-
-<section class="stage2">
-        <div><p class="info">Nicht immer beweist Europa freilich ein glückliches Händchen beim Sourcing. Jene im ostserbischen Bor domizilierte Kupfermine, die um ein Haar an Kovats´ A-Tec Industries gegangen wäre, blieb in der Folge lange Spielball von nationalen Interessen. Am Ende fand sie chinesische Eigentümer - die Zijin Mining Group griff mit Handkuss zu. Einen Offenbarungseid wie diesen zu verhindern sollte Anspruch des Westens sein. Sofern man mit der These des 2019 verstorbenen US-amerikanischen Physikers und Chaosforschers Mitchell Jay Feigenbaum d'accord geht. Seine Auffassung: Irreguläre Muster können sich zu chaotischen Zuständen aufschaukeln. Dafür reicht ein Blick in die Lieferketten. Oder nach Bolivien, wo sich große Teile der Welt gerade anstellen, um sich Zugriff auf die Lithiumvorkommen zu sichern - Zerstörung der Hochgebirgsseen inklusive.
-        </p></div>
-        <div><img class="profilbild" src="https://industriemagazin.at/imager/media/industriemagazin/1755266/Erwin-Hameseder-c-Eva-Kelety-8_428fd902f4247199467725e7eccf1673.jpg" alt="Italian Trulli">
-<p class="bildtext">Erwin Hameseder, Österreichischer Raiffeisenverband (Rang 2): Als Chef der mächtigen Raiffeisengruppe Rang 2 der Topmanager. - © Eva Kelety</p>
 </div>
-      </section>
+</section>
 
-      <hr class="trennlinie">
+<p style="margin-bottom:35px;">
+Zehn Banker und Versicherer unter den Top-40 (nach exakt ebensovielen im Vorjahr): Damit sind Spitzenvertreter von Banken und Versicherungen weiterhin ein unbestrittener Machtfaktor in der Rangreihung der Top-1000. Relativ schnell bildete sich nach Abgängen von Managern wie Andreas Treichl Einfluss abseits der klassischen Finanzwirtschaft in neuen Strukturen heraus. Mit Raiffeisen-Holding NÖ-Wien-Obmann <b>Erwin Hameseder</b> (Rang 1) und Uniqa-Vorstandschef <b>Andreas Brandstetter</b> (Rang 3) sind fürs erste weiterhin zwei Topleute voran.
+</p>
 
-<h2>
-Wie funktioniert die Rangreihung?
-</h2>
-
-        <p>
-            <b>Umsatz:</b> Für jede Person wird der Umsatz der Unternehmen, in denen sie Funktionen bekleidet, aufsummiert – gewichtet nach der Funktion (Vorstandsvorsitz = 1, Aufsichtsratsvorsitz = 0,75 etc.) Dies wird für Industrie- und Finanzunternehmen getrennt durchgeführt, um nicht Bilanzsumme und Umsatz zu vermischen.    
-        </p>
-
-        <p>
-            <b>Vernetzung:</b> Jede Person übernimmt die Netzwerkzentralität aller Institutionen (Firmen, Politik/Staat, Gesellschaft), in denen sie Funktionen bekleidet. Die Netzwerkzentralität wiederum umfasst die beiden Dimensionen „Brokerage Capital“ (Verbindung unterschiedlicher Netzwerkbereiche) und „Closure Capital“ (Einbettung in Cliquen). Internationale Positionen wurden stärker gewichtet.</p>
-        
-        <p>
-            <b>Variabilität:</b> FASresearch erzeugt das Netzwerk der Top-5.000-Unternehmen und ihrer Eigentümer und Töchter (um daraus das Gewicht für die handelnden Personen zu errechnen) anhand von Kapitalbeteiligungs-/Eigentums-Beziehungen und/oder Verbindungen über Personen. Aus der Zuordnung der Unternehmen zu ÖNACE-Klassen wird ein Variabilitäts-Index für jede Firma errechnet. Der ist umso höher, mit je mehr Unternehmen verschiedener Klassen die Firma verbunden ist und je gleichmäßiger sich die Verbindungen auf die Klassen verteilen. Darüber hinaus wurde berücksichtigt, wie sehr die Manager die Sektoren Politik/Staat (z.B. Wirtschaftsverbände), Wirtschaft (Unternehmen und Privatstiftungen) sowie Gesellschaft (Clubs und Vereine, Kunst und Kultur, Wissenschaft und Forschung, Sport etc.) miteinander verbinden.
-        </p>
-
-        <p><b>Systemisches Risiko:</b> Heuer erstmals analysiert, bildet es die Abhängigkeitsverhältnisse in der Wertschöpfungskette ab. Zur Berechnung der systemischen Risiken wurden die Güterklassen der Input-Output-Matrix der Volkswirtschaftlichen Gesamtrechnung herangezogen. Die Gewichtung erfolgte über die Bruttowertschöpfung innerhalb der Sektoren sowie zwischen den Sektoren auf Basis zirkulierender Güterflüsse in Millionen Euro. Jede weitere zusätzliche Funktion einer Person fließt - ebenso auf Basis der Güterklassezuordnung des jeweiligen Unternehmens - aufaggregiert in den Gesamtwert ein. Güterklassen mit hohem Energie- und / oder Materialanteil wie etwa "Energie und Dienstleistungen der Energieversorgung" (Höchstwert 100) oder "Metallerzeugnisse" oder der Bauwirtschaft konnotierten Güterklassen wurden stärker gewichtet.</p>
-
-        <p>Für alle Kriterien werden die Firmenwerte (nach den obigen Schlüsseln) auf die Personen übertragen, aufsummiert und auf ein Maximum von 100 Prozent normalisiert. Das bedeutet zum Beispiel: Die Person mit dem höchsten Umsatzgewicht im Ranking (2022: Alfred Stern) stellt die 100%­Benchmark für alle anderen Personen im Ranking dar. Das Kriterium Variabilität ergibt sich aus dem Durchschnitt der Einzelvariabilitäten, ebenso das Kriterium Systemisches Risiko. Die Rangreihung innerhalb von Ex-aequo-Wertungen geschieht nach den weiteren Nachkommastellen, die im Heft nicht abgebildet werden. Die zum Teil deutlichen Abstände zwischen den Managern bei der Netzwerkzentralität zeigen, wie hoch konzentriert die Netzwerkeinbettung für sich genommen ist (was typisch ist für Machtnetzwerke). Außerdem stellt sich heraus, dass die Manager im Ranking in manchen Dimensionen (z.B. Variabilität) gar nicht den maximal möglichen Wert von 100 erreichen. Die vordersten Plätze dieser Dimension werden von Personen eingenommen, die nicht im Ranking enthalten sind (Politiker, Funktionäre von Wirtschafsverbänden etc.).</p>
+<section class="bühne-links">
+  <div class="foto-box">
+<img class="profil-foto" src="https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Erwin-Hameseder-c-Thomas-Topf-2.jpg" alt="Das Manager-Ranking">
+<p class="bildtext">
+Raiffeisen-Generalanwalt Erwin Hameseder: Auf die Netzwerkpflege versteht er sich wie Vor-Vorgänger Christian Konrad glänzend.
+</p>
 </div>
+
+  <div class="profil-info">
+<h3>Rang 1: Erwin Hameseder (63)</h3>
+<h4>Vorstandobmann RAIFFEISEN-HOLDING NIEDERÖSTERREICH-WIEN</h4>
+<p>Er hat Bestwerte in den Kategorien Vernetzung und Umsatz und führt das Ranking der Top-1000 an: Seit dem Jahr 2012 ist Erwin Hameseder Obmann der Raiffeisen-Holding NÖ-Wien, seit 2022 zieht er als Raiffeisen-Generalanwalt die Fäden. Ein Amt, in dem er die Raiffeisen-Organisation und Genossenschaften mit etwa zwei Millionen Mitgliedern und über 60.000 Mitarbeitern vertritt. Auf die Netzwerkpflege versteht er sich wie sein Vor-Vorgänger Christian Konrad glänzend.</p>
+
+<p>
+<i class="fa-solid fa-magnifying-glass-chart"></i><a href="https://industriemagazin.at/top-manager/erwin-hameseder" target="_blank">  Erwin Hameseder in der Einzelanalyse</a>
+</p>
+</div>
+</section>
+
+<hr class="trennlinie">
+
+<section class="bühne-rechts">
+  <div class="foto-box">
+<h3>Rang 2: Michael Strugl (60)</h3>
+<h4>Vorstandsvorsitzender Verbund </h4>
+<p>
+Ein Mann, der mit größtmöglicher Systemrelevanz punktet, ist Michael Strugl. Er stemmt mit dem großflächigen Umbau der Energiesysteme ein Megaprojekt. Zuletzt wurden vom Verbund drei Milliarden Euro in Wasserkraft und den Netzausbau investiert. Strugls politische Vergangenheit? Ein wesentlicher Netzwerkhebel. Heute noch pflegt er einen direkten Draht zu Entscheidungsträgern wie der Umweltministerin Gewessler.
+</p>
+
+<p>
+<i class="fa-solid fa-magnifying-glass-chart"></i><a href="https://industriemagazin.at/top-manager/michael-strugl" target="_blank">  Michael Strugl in der Einzelanalyse</a>
+</p>
+</div>
+
+
+  <div class="profil-info">
+ <div class="foto-box">
+<img class="profil-foto" src="https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Strugl-Michael-CEO.jpg" alt="Das Manager-Ranking">
+<p class="bildtext">
+Verbund-Vorstandsvorsitzender Michael Strugl: Höhere Systemrelevanz geht nicht
+</p>
+</div>
+</section>
+
+<hr class="trennlinie">
+
+<section class="bühne-links">
+  <div class="foto-box">
+<img class="profil-foto" src="https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Brandstetter_2023-10-31-104850_fwuu.jpg" alt="Das Manager-Ranking">
+<p class="bildtext">
+Systemisches Risiko in Russland abgebaut: UNIQA-Vorstandsvorsitzender Andreas Brandstetter
+</p>
+</div>
+
+  <div class="profil-info">
+<h3>Rang 3: Andreas Brandstetter (54)</h3>
+<h4>Vorstandsvorsitzender UNIQA</h4>
+<p>
+Der Manager mit höchst variablen Netzwerk machte zuletzt vor allem mit einem Schritt - dem Rückzug aus Russland - von sich reden, der über den Verkauf der Tochtergesellschaft Raiffeisen Life in Moskau erfolgte. Damit wurde - höchst konsequent - systemisches Risiko abgebaut. Mit einerm auf 216 Millionen Euro gestiegenen Ergebnis vor Steuern hat der Uniqa-Boss Andreas Brandstetter in unserem Ranking auf Rang 3 - im ersten Halbjahr 2023 zuletzt auch eine hervorragende Performance hingelegt. 
+</p>
+
+<p>
+<i class="fa-solid fa-magnifying-glass-chart"></i><a href="https://industriemagazin.at/top-manager/andreas-brandstetter" target="_blank">  Andreas Brandstetter in der Einzelanalyse</a>
+</p>
+</div>
+</section>
+
+<hr class="trennlinie">
+
+<section class="bühne-rechts">
+  <div class="foto-box">
+<h3>Rang 4: Sabine Herlitschka (57)</h3>
+<h4>Vorstandsvorsitzende Infineon Technologies Austria</h4>
+<p>
+Bestwerte bei der Variabilität: Ihre Positionen formuliert Herlitschka zuletzt als IV-Vizepräsidentin behände: Eine Stärkung der nationalen Technologie-, Innovations- und Umsetzungskapazitäten wünscht sie sich. Und Herlitschka, die in Innsbruck gerade den sechsten Österreich-Standort des Halbleiter-Riesen eröffnete, bleibt bei ihren Forderungen an die europäische Politik. Das Kräftegleichgewicht USA - China bereitet ihr Sorgen. Europa müsse aufpassen, nicht auf der Zuschauertribüne zu landen. Herlitschkas Antwort: Jetzt, wo Europa die Mikroelektronik als systemrelevante Schlüsseltechnologie definiert habe, holt sie die besten Köpfe ins Unternehmen. Mehr als jeder zweite Mitarbeiter in Villach verfügt über eine akademische Ausbildung.</p>
+
+<p>
+<i class="fa-solid fa-magnifying-glass-chart"></i><a href="https://industriemagazin.at/top-manager/sabine-herlitschka" target="_blank">  Sabine Herlitschka in der Einzelanalyse</a>
+</p>
+</div>
+
+
+  <div class="profil-info">
+ <div class="foto-box">
+<img class="profil-foto" src="https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/1_Sabine-Herlitschka_Infineon-Austria.jpg" alt="Das Manager-Ranking">
+<p class="bildtext">
+Holt die besten Köpfe ins Unternehmen: Infineon-Österreich-Vorstandsvorsitzende Sabine Herlitschka
+</p>
+</div>
+</section>
+
+<hr class="trennlinie">
+
+<section class="bühne-links">
+  <div class="foto-box">
+<img class="profil-foto" src="https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Stern.jpg" alt="Das Manager-Ranking">
+<p class="bildtext">
+Setzt die Transformation unter der Strategie 2030 fort: OMV-Vorstandsvorsitzender Alfred Stern
+</p>
+</div>
+
+  <div class="profil-info">
+<h3>Rang 5: Alfred Stern (58)</h3>
+<h4>Vorstand-Vorsitzender OMV</h4>
+<p>
+Bis 2026 wurde das Mandat des Montanisten Alfred Stern Dissertationsthema: die bruchmechanische Charakterisierung des Langzeitverhaltens von Polymeren unter statischer Belastung - verlängert. Nun gilt es, die Strategie 2030 des Unternehmens weiter umzusetzen. Die OMV will sich von einem integrierten Öl-, Gas- und Chemieunternehmen zu einem führenden Anbieter von innovativen nachhaltigen Kraftstoffen, Chemikalien und Materialien entwickeln und in der Kreislaufwirtschaft punkten. Mit der Umstellung auf ein CO2-armes Geschäft verfolgt Stern das Ziel, bis spätestens 2050 in allen drei Scopes klimaneutral zu werden.
+</p>
+
+<p>
+<i class="fa-solid fa-magnifying-glass-chart"></i><a href="https://industriemagazin.at/top-manager/alfred-stern" target="_blank">  Alfred Stern in der Einzelanalyse</a>
+</p>
+</div>
+</section>
+
+<hr class="trennlinie">
+<p style="text-align:center">
+WEITERE TOPPLATZIERTE MANAGER
+</p>
+
+<hr class="trennlinie">
+
+<section class="bühne-rechts">
+  <div class="foto-box">
+<h3>Rang 12: Herbert Eibensteiner (60)</h3>
+<h4>Vorstand-Vorsitzender Voestalpine</h4>
+<p>
+1989 begann der studierte Maschinenbauer und Betriebswirt Herbert Eibensteiner seine berufliche Laufbahn bei der Voestalpine als Betriebsingenieur für Instandhaltung, seit 2019 ist er Vorstandsvorsitzender des Unternehmens. Soeben wurde er in seinem Amt für weitere fünf Jahre bestätigt. Eibensteiner, vierfacher Vater, leitete den Schwenk in Richtung grüner Stahlproduktion ein: Der Bau zweier Elektrolichtbogenofen, einer am Standort Donawitz, ein deutlich größerer in Linz, sind die erste Etappe der bis 2050 geplanten schrittweisen Umstellung der Stahlproduktion auf CO2-neutral. 
+</p>
+
+<p>
+<i class="fa-solid fa-magnifying-glass-chart"></i><a href="https://industriemagazin.at/top-manager/herbert-eibensteiner" target="_blank">  Herbert Eibensteiner in der Einzelanalyse</a>
+</p>
+</div>
+
+
+  <div class="profil-info">
+ <div class="foto-box">
+<img class="profil-foto" src="https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/2018-herbert-eibensteiner.jpg" alt="Das Manager-Ranking">
+<p class="bildtext">
+Drückt bei der Umsetzung der CO2-neutralen Stahlproduktion aufs Tempo: Voestalpine-Vorstandsvorsitzender Herbert Eibensteiner 
+</p>
+</div>
+</section>
+
+<hr class="trennlinie">
+
+<section class="bühne-links">
+  <div class="foto-box">
+<img class="profil-foto" src="https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Pierer-Stefan.jpg" alt="Das Manager-Ranking">
+<p class="bildtext">
+Höchstwerte bei Systemrelevanz und Variabilität: Stefan Pierer, Pierer Industrie AG
+</p>
+</div>
+
+  <div class="profil-info">
+<h3>Rang 24: Stefan Pierer (66)</h3>
+<h4>Vorstand Pierer Industrie AG</h4>
+<p>
+Der Selfmade-Man Stefan Pierer, der seine Karriere als Vertriebsassistent bei Hoval in Marchtrenk begann, hat sich mit KTM und Pankl ein Mobilitätsimperium aufgebaut. Jetzt will der Präsident der IV Oberösterreich dem Autozulieferer Leoni einen Neuanfang bescheren. Der Unternehmer ist neuerdings Alleineigentümer des angeschlagenen deutschen Autozulieferers mit Sitz in Nürnberg. Nachdem ein geplanter Teilverkauf an einen thailändischen Investor Ende 2022 scheiterte und Leoni mit finanziellen Schwierigkeiten kämpfte, stellte Pierer im Rahmen eines Rettungsplans eine Kapitalspritze in Höhe von 150 Millionen Euro bereit. 
+</p>
+
+<p>
+<i class="fa-solid fa-magnifying-glass-chart"></i><a href="https://industriemagazin.at/top-manager/stefan-pierer" target="_blank">  Stefan Pierer in der Einzelanalyse</a>
+</p>
+</div>
+</section>
+
+<hr class="trennlinie">
+
+<section class="bühne-rechts">
+  <div class="foto-box">
+<h3>Rang 25: F. Peter Mitterbauer (48)</h3>
+<h4>Vorstandsvorsitzender Miba</h4>
+<p>
+Wohl niemand hatte auf der Karte, wie rasant F. Peter Mitterbauer - und zwar binnen eines Jahrzehnts - nach der Hofübergabe 2013 gelungen ist. Mit dem selben Expansionshunger, den schon sein Vater an den Tag legte, treibt "FPM", wie ihn Mitarbeiter zuweilen nennen, das internationale Geschäft voran. Beispiel China. 2018 wurde dort in zwei Werke nahe Shanghai und Shengzhen investiert. Jetzt, in Zeiten einer sich eintrübenden chinesischen Automobilkonjunktur (O-Ton Mitterbauer: "Diese ist relativ zu sehen") geht es in der Tonart weiter. 
+</p>
+
+<p>
+<i class="fa-solid fa-magnifying-glass-chart"></i><a href="https://industriemagazin.at/top-manager/franz-peter-mitterbauer" target="_blank">  F. Peter Mitterbauer in der Einzelanalyse</a>
+</p>
+</div>
+
+
+  <div class="profil-info">
+ <div class="foto-box">
+<img class="profil-foto" src="https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Mitterbauer.jpg" alt="Das Manager-Ranking">
+<p class="bildtext">
+Verfügt über ein hochvariables Netzwerk: Miba-Vorstandsvorsitzender F. Peter Mitterbauer
+</p>
+</div>
+</section>
+
+<hr class="trennlinie">
+
+<section class="bühne-links">
+  <div class="foto-box">
+<img class="profil-foto" src="https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Bild-Peter-Oswald.jpg" alt="Das Manager-Ranking">
+<p class="bildtext">
+Bestwerte bei der Vernetzung: Peter J. Oswald, Vorstandsvorsitzender Mayr-Melnhof Karton 
+</p>
+</div>
+
+  <div class="profil-info">
+<h3>Rang 31: Peter J. Oswald (60)</h3>
+<h4>Vorstandsvorsitzender Mayr-Melnhof Karton</h4>
+<p>
+Nicht immer findet der langjährige Mondi-Manager Peter J. Oswald, der früher einmal Einkauf und Logistik bei KTM in Mattighofen leitete, Europas Verordnungslogik glücklich gewählt. Skeptisch äußerte er sich so etwa zur geplanten Reform der Verpackungsverordnung durch die EU-Kommission. Der Entwurf in seiner jetzigen Form dürfte durch den geplanten höheren Verpackungsverbrauch stellenweise zu höheren Transportkosten führen, was wiederum mehr klimaschädliche Emissionen zur Folge haben könnte, meint er. Nach einem Rekordjahr 2022 blickt er vorsichtig in die nahe Zukunft. Teil der Strategie: Ein Profit- und Cash Protection-Programm, umfassende Kosteneinsparungen und Zurückhaltung bei Neuinvestitionen. 
+</p>
+
+<p>
+<i class="fa-solid fa-magnifying-glass-chart"></i><a href="https://industriemagazin.at/top-manager/peter-j.-oswald" target="_blank">  Peter J. Oswald in der Einzelanalyse</a>
+</p>
+</div>
+</section>
+
+<hr class="trennlinie">
+
+<section class="bühne-rechts">
+  <div class="foto-box">
+<h3>Rang 44: Wolfgang Litzlbauer (54)</h3>
+<h4>Vorstandsvorsitzender Umdasch Group</h4>
+<p>
+Der frühere Miba-Manager und heutige Umdasch-CEO Wolfgang Litzlbauer ist Realist: "Die Vertreter meiner Generation werden noch so manche Disruption erleben", sagt er. Vieles von dem Neuen treibt der Schalungs- Gerüste- und Ladenbauexperte an vorderster Front voran: Das klassische Stammgeschäft wird digital aufgeladen, bis hin zu einer Präsenz im Metaversum, wo man auf seinem eigenen Grund und Boden neue Gschäftsmodelle rund um virtuelle Bauwerke ergründet. Zugleich werden Technologien wie der Betondruck oder Fertigteilfabriken erprobt. AI sei dagegen der sichere Schlüssel dafür, "mehr Effizienz und Produktivität am Bau zu realisieren".
+</p>
+
+<p>
+<i class="fa-solid fa-magnifying-glass-chart"></i><a href="https://industriemagazin.at/top-manager/wolfgang-litzlbauer" target="_blank">  Wolfgang Litzlbauer in der Einzelanalyse</a>
+</p>
+</div>
+
+
+  <div class="profil-info">
+ <div class="foto-box">
+<img class="profil-foto" src="https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/thumbnail_image001.jpg" alt="Das Manager-Ranking">
+<p class="bildtext">
+Liefert am Fließband disruptive Konzepte für die Baubranche: Wolfgang Litzlbauer, Vorstandsvorsitzender Umdasch Group
+</p>
+</div>
+</section>
+
+
+    <div id="faq" class="faq-body">
+      <div class="faq-header">
+        <h3 class="faq-title">FAQ's: So entsteht das Ranking der Top 1000</h3>
+        <div class="seperator"></div>
+      </div>
+      <div class="faq-list">
+          <div>
+            <details open>
+              <summary title="So wird bewertet">So wird bewertet</summary>
+              <p class="faq-content">Es gilt: Einfluss ist ein Produkt aus Umsatz, Vernetzung, Variabilität des Netzwerkes sowie der systemischen Relevanz. Analysiert werden die kumulierten Umsätze der Unternehmen, über die eine Person kraft Vorstands- oder Aufsichtsratstätigkeit Verfügungsgewalt hat. Errechnet wird weiters die Vernetzung der Personen aus ihren Positionen in Vorständen, Aufsichtsräten, Forschungsinstitutionen, Wirtschaftsverbänden oder Vereinen. Variabilität ist der dritte Faktor, sie bildet Verbindungen in andere Branchen und andere Länder sowie zu unterschiedlichen Altersgruppen (und dem anderen Geschlecht) im Netzwerk ab. Zur Berechnung der systemischen Risiken wird die jedem Unternehmen zugeordnete Güterklasse der Input-Output-Matrix der Volkswirtschaftlichen Gesamtrechnung herangezogen. Die Gewichtung erfolgte hier über die Bruttowertschöpfung innerhalb der Sektoren sowie zwischen den Sektoren auf Basis zirkulierender Güterflüsse in Millionen Euro.</p>
+            </details>
+            </div>
+          <div>
+            <details>
+              <summary title="Was ist Systemrelevanz?">Was ist Systemrelevanz?</summary>
+              <p class="faq-content">Sie bildet die Abhängigkeitsverhältnisse in der Wertschöpfungskette ab. Zur Berechnung der systemischen Risiken wurden die Güterklassen der Input-Output-Matrix der Volkswirtschaftlichen Gesamtrechnung herangezogen. Die Gewichtung erfolgte über die Bruttowertschöpfung innerhalb der Sektoren sowie zwischen den Sektoren auf Basis zirkulierender Güterflüsse in Millionen Euro.</p>
+            </details>
+            </div>
+          <div>
+            <details>
+              <summary title="Wann überflügeln Einzelvorstände ihre Chefs?">Wann überflügeln Einzelvorstände ihre Chefs?</summary>
+              <p class="faq-content">Es mag im ersten Moment ein überraschender Befund sein: Werden „gefühlt“ einflussreichere Personen wie Vorstandschefs (oder Eigentümer) von ihren berichtspflichtigen Führungskräften wie Bereichsvorständen hinter sich gelassen, rätselt man, woran das liegen mag. Und das, obwohl, wie Netzwerkanalytiker Harald Katzmair sagt, Vorstandsvorsitzende infolge einer höheren Gewichtung eigentlich "nach oben gepusht werden". Selbstverständlich ist die Abbildung in allen Fällen korrekt - sie erklärt sich durch ihre Einzelmandate sowie deren Branchenzuordnung und deren systemischen Risikos.</p>
+            </details>
+            </div>
+          <div>
+            <details>
+              <summary title="Wieso so viele Senkrechtstarter?">Wieso so viele Senkrechtstarter?</summary>
+              <p class="faq-content">Rangverschiebungen sind im Ranking der 1.000 einflussreichsten Manager ein fester Bestandteil. Wie immer erklären sich größere Sprünge ins Spitzenfeld - oder deutliche Positionsverluste - durch Übernahme oder Abgabe einer Führungsposition wie etwa einflussreichen Aufsichtsratsmandaten. Wie im Vorjahr kommt heuer die Berücksichtigung des systemischen Risikos hinzu: Führungskräfte von besonders exponierten Energiedienstleistern sowie Unternehmen von Branchen mit hohem Materialfaktor wie der Bauwirtschaft konnten - teils deutlich zweistellig - Plätze gewinnen. Ebenso Vertreter technologiestarker Unternehmen aus Branchen wie der IKT-Branche.</p>
+            </details>
+            </div>
+      </div>
+    </div>
+</body>
