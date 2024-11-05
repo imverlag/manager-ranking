@@ -282,7 +282,7 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Edith-Hlawati.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/karl-heinz-strauss",
-        "nav_link_r": "https://industriemagazin.at/top-manager/klemens-peter-haselsteiner"
+        "nav_link_r": "www.industriemagazin.at/top-manager/klemens-peter-haselsteiner"
     },
     {
         "id": 152179,
@@ -297,7 +297,7 @@
         "sales_score": 38.1,
         "risk_score": 39.1,
         "variability_score": 17,
-        "link_url": "https://industriemagazin.at/top-manager/klemens-peter-haselsteiner",
+        "link_url": "www.industriemagazin.at/top-manager/klemens-peter-haselsteiner",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Haselsteiner.jpg",
         "description": "2023 trat der dreifache Vater als CEO des 15-Milliarden-Konzerns in die Fussstapfen seines Vaters Hans-Peter. Er expandiert den Konzern strategisch in Richtung Westen. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/edith-hlawati",
@@ -319,7 +319,7 @@
         "link_url": "www.industriemagazin.at/top-manager/patricia-neumann",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Patricia-Neumann.jpeg",
         "description": "",
-        "nav_link_l": "https://industriemagazin.at/top-manager/klemens-peter-haselsteiner",
+        "nav_link_l": "www.industriemagazin.at/top-manager/klemens-peter-haselsteiner",
         "nav_link_r": "www.industriemagazin.at/top-manager/günther-ofner"
     },
     {
