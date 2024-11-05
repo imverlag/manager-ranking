@@ -90,7 +90,7 @@
         "variability_score": 25.4,
         "link_url": "www.industriemagazin.at/top-manager/alfred-stern",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Stern.jpg",
-        "description": "",
+        "description": "Bis 2026 wurde das Mandat des ausgebildeten Montanisten - Dissertationsthema: die bruchmechanische Charakterisierung des Langzeitverhaltens von Polymeren unter statischer Belastung - verlängert. Nun gilt es, die bereits begonnene Transformation unter der Strategie 2030 weiter umzusetzen. Die OMV will sich von einem integrierten Öl-, Gas- und Chemieunternehmen zu einem führenden Anbieter von innovativen nachhaltigen Kraftstoffen, Chemikalien und Materialien entwickeln und in der Kreislaufwirtschaft punkten. Mit der Umstellung auf ein CO2-armes Geschäft verfolgt Stern das Ziel, bis spätestens 2050 in allen drei Scopes klimaneutral zu werden.",
         "nav_link_l": "www.industriemagazin.at/top-manager/sabine-herlitschka",
         "nav_link_r": "www.industriemagazin.at/top-manager/johann-strobl"
     },
@@ -223,7 +223,7 @@
         "variability_score": 19,
         "link_url": "www.industriemagazin.at/top-manager/herbert-eibensteiner",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/2018-herbert-eibensteiner.jpg",
-        "description": "",
+        "description": "1989 nahm seine berufliche Laufbahn bei der Voestalpine als Betriebsingenieur für Instandhaltung seinen Anfang, seit 2019 ist der Manager, den Weggefähren als „korrekt aber knallhart“ beschreiben, Vorstandsvorsitzender.",
         "nav_link_l": "www.industriemagazin.at/top-manager/heinrich-schaller",
         "nav_link_r": "www.industriemagazin.at/top-manager/hans klaus-reisch"
     },
@@ -299,7 +299,7 @@
         "variability_score": 17,
         "link_url": "www.industriemagazin.at/top-manager/klemens peter-haselsteiner",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Haselsteiner.jpg",
-        "description": "",
+        "description": "2023 trat der dreifache Vater als CEO des 15-Milliarden-Konzerns in die Fussstapfen seines Vaters Hans-Peter. Er expandiert den Konzern strategisch in Richtung Westen. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/edith-hlawati",
         "nav_link_r": "www.industriemagazin.at/top-manager/patricia-neumann"
     },
@@ -451,7 +451,7 @@
         "variability_score": 44.1,
         "link_url": "www.industriemagazin.at/top-manager/stefan-pierer",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Pierer-Stefan.jpg",
-        "description": "",
+        "description": "Der Selfmade-Man, der seine Karriere als Vertriebsassistent bei Hoval in Marchtrenk startete, hat sich ein veritables Mobilitätsimperium aufgebaut. Seit Juni 2022 ist er Präsident der Industriellenvereinigung Oberösterreich.",
         "nav_link_l": "www.industriemagazin.at/top-manager/franz-peter-mitterbauer",
         "nav_link_r": "www.industriemagazin.at/top-manager/peter j.-oswald"
     },
@@ -907,7 +907,7 @@
         "variability_score": 34.2,
         "link_url": "www.industriemagazin.at/top-manager/thomas-ott",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Ott-Thomas-Mondi.jpg",
-        "description": "",
+        "description": "Der CEO der Mondi Flexibles und Vorstand der Mondi AG begann seine Karriere bei Mondi in den 90ern und arbeitete zwischenzeitlich in Italien, den USA und der Schweiz. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/andreas-klauser",
         "nav_link_r": "www.industriemagazin.at/top-manager/gerhard-christiner"
     },
@@ -1096,7 +1096,7 @@
         "risk_score": 21.4,
         "variability_score": 8.4,
         "link_url": "www.industriemagazin.at/top-manager/kerstin-gelbmann",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Gelbmann.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/sonja-brandtmayer",
         "nav_link_r": "www.industriemagazin.at/top-manager/peter-mitterbauer"
@@ -1134,7 +1134,7 @@
         "risk_score": 3,
         "variability_score": 45.4,
         "link_url": "www.industriemagazin.at/top-manager/karin-exner-wöhrer",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Exner-Woehrer.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/peter-mitterbauer",
         "nav_link_r": "www.industriemagazin.at/top-manager/markus-kaser"
@@ -1191,8 +1191,8 @@
         "risk_score": 3,
         "variability_score": 29.9,
         "link_url": "www.industriemagazin.at/top-manager/timo-springer",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Springer_Timo.jpg",
+        "description": "Der bestätigte Präsident der Kärntner Industriellenvereinigung führt das Familienunternehmen mit Hauptsitz in Friesach, das Maschinen und digitale Lösungen für die holzverarbeitende Industrie herstellt. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/christian-purrer",
         "nav_link_r": "www.industriemagazin.at/top-manager/reinhard-schwendtbauer"
     },
@@ -1324,7 +1324,7 @@
         "risk_score": 20.4,
         "variability_score": 19.4,
         "link_url": "www.industriemagazin.at/top-manager/andreas-ludwig",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Ludwig.png",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/johannes-schmuckenschlager",
         "nav_link_r": "www.industriemagazin.at/top-manager/martin-schaller"
@@ -1533,7 +1533,7 @@
         "risk_score": 23.7,
         "variability_score": 29.4,
         "link_url": "www.industriemagazin.at/top-manager/hannes-androsch",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Androsch-Hannes_androsch.com.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/karlheinz-wex",
         "nav_link_r": "www.industriemagazin.at/top-manager/peter-krammer"
@@ -1667,7 +1667,7 @@
         "variability_score": 10.5,
         "link_url": "www.industriemagazin.at/top-manager/gerald-mayer",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Der studierte Wirtschaftswissenschafter, der bei Amag als Zukunftshoffnung der Eigentümervertreter der B&C Beteiligungsholding gehandelt wurde, war seit 2019 als CEO hauptverantwortlich für Rekordergebnisse und managt jetzt die Finanzen beim Stahlhersteller Voestalpine. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/ivan-vlaho",
         "nav_link_r": "www.industriemagazin.at/top-manager/hubert-rhomberg"
     },
@@ -1761,7 +1761,7 @@
         "risk_score": 31.2,
         "variability_score": 31.9,
         "link_url": "www.industriemagazin.at/top-manager/othmar-ederer",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Ederer_othmar.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/christoph-swarovski",
         "nav_link_r": "www.industriemagazin.at/top-manager/marcus-wild"
@@ -1837,7 +1837,7 @@
         "risk_score": 3,
         "variability_score": 34.7,
         "link_url": "www.industriemagazin.at/top-manager/helmut-schwarzl",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Schwarzl.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/stephan-zöchling",
         "nav_link_r": "www.industriemagazin.at/top-manager/mark-mateschitz"
@@ -1875,8 +1875,8 @@
         "risk_score": 3,
         "variability_score": 25.4,
         "link_url": "www.industriemagazin.at/top-manager/stefan-ehrlich-adam",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Ehrlich-Adam-Stefan.jpg",
+        "description": "Aufgewachsen in Senegal, Mexiko und Österreich und bestens vernetzt in Wiens Industrie führt Ehrlich-Adam das Familienunternehmen in eine höchst diverse - und digitale - Zukunft. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/mark-mateschitz",
         "nav_link_r": "www.industriemagazin.at/top-manager/stefan-poledna"
     },
@@ -1914,7 +1914,7 @@
         "variability_score": 3,
         "link_url": "www.industriemagazin.at/top-manager/susanna-zapreva-hennerbichler",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Seit Anfang 2024 ist sie Mitglied im Vorstand der Verbund AG, Österreichs größtem börsennotierten Energieunternehmen. Zapreva-Hennerbichler hält zudem Mandate als Aufsichtsrätin der börsennotierten Salzgitter und PNE.",
         "nav_link_l": "www.industriemagazin.at/top-manager/stefan-poledna",
         "nav_link_r": "www.industriemagazin.at/top-manager/klaus-ortner"
     },
@@ -2046,7 +2046,7 @@
         "risk_score": 3,
         "variability_score": 43.1,
         "link_url": "www.industriemagazin.at/top-manager/jürgen-rauch",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Rauch-Juergen.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/gerhard-drexel",
         "nav_link_r": "www.industriemagazin.at/top-manager/stefan-borgas"
@@ -2065,7 +2065,7 @@
         "risk_score": 12.4,
         "variability_score": 14.8,
         "link_url": "www.industriemagazin.at/top-manager/stefan-borgas",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Borgas.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/jürgen-rauch",
         "nav_link_r": "www.industriemagazin.at/top-manager/michael-tojner"
@@ -2161,7 +2161,7 @@
         "variability_score": 26.2,
         "link_url": "www.industriemagazin.at/top-manager/martin-ohneberg",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Ohneberg.jpg",
-        "description": "",
+        "description": "Der ehemalige Leistungssportler und Selfmade-Unternehmer ist weit über Österreichs Westen und seine Branche vernetzt. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/paul-klotz",
         "nav_link_r": "www.industriemagazin.at/top-manager/helmut-bernkopf"
     },
@@ -2179,7 +2179,7 @@
         "risk_score": 22.3,
         "variability_score": 21,
         "link_url": "www.industriemagazin.at/top-manager/helmut-bernkopf",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Bernkopf-Helmut.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/martin-ohneberg",
         "nav_link_r": "www.industriemagazin.at/top-manager/peter-humer"
@@ -2217,8 +2217,8 @@
         "risk_score": 16,
         "variability_score": 24,
         "link_url": "www.industriemagazin.at/top-manager/georg-kopetz",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Kopetz-Georg.jpg",
+        "description": "Der Mitbegründer der TTTech und Sohn des legendären TU-Professors trumpft nicht nur vor globalen Unternehmergrössen am World Economic Forum in Davos auf. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/peter-humer",
         "nav_link_r": "www.industriemagazin.at/top-manager/ian-botha"
     },
@@ -2331,8 +2331,8 @@
         "risk_score": 3.5,
         "variability_score": 30.8,
         "link_url": "www.industriemagazin.at/top-manager/stefan-engleder",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Engleder.jpg",
+        "description": "Der Urenkel des Firmengründers Ludwig Engel führt den Schwertberger Spritzgussmaschinenbauer seit 2016 mit ruhiger Hand durch die bewegten Zeiten. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/gregor-pilgram",
         "nav_link_r": "www.industriemagazin.at/top-manager/andrea-wagner"
     },
@@ -2369,7 +2369,7 @@
         "risk_score": 3,
         "variability_score": 31,
         "link_url": "www.industriemagazin.at/top-manager/elisabeth-engelbrechtsmüller-strauß",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Elisabeth-Engelbrechtsmueller-Strauss.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/andrea-wagner",
         "nav_link_r": "www.industriemagazin.at/top-manager/kurt-svoboda"
@@ -2616,7 +2616,7 @@
         "risk_score": 12.4,
         "variability_score": 25.4,
         "link_url": "www.industriemagazin.at/top-manager/doris-wendler",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Wendler-Doris__c__Alexandra_Eizinger.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/silvia-angelo",
         "nav_link_r": "www.industriemagazin.at/top-manager/dieter-hengl"
@@ -2978,7 +2978,7 @@
         "variability_score": 12.9,
         "link_url": "www.industriemagazin.at/top-manager/tanja maria-kienegger",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Die gebürtige Oststeirerin ist seit Oktober 2023 Geschäftsführerin bei Siemens Mobility Austria – mit Werken in Graz und Wien. Davor leitete sie bei der ÖBB-Infrastruktur AG den Geschäftsbereich Energie.",
         "nav_link_l": "www.industriemagazin.at/top-manager/reinhard-draxler",
         "nav_link_r": "www.industriemagazin.at/top-manager/ilse-bartenstein"
     },
@@ -2996,7 +2996,7 @@
         "risk_score": 11.4,
         "variability_score": 16.4,
         "link_url": "www.industriemagazin.at/top-manager/ilse-bartenstein",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Bartenstein-Ilse.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/tanja maria-kienegger",
         "nav_link_r": "www.industriemagazin.at/top-manager/thomas-pucharski"
@@ -3205,7 +3205,7 @@
         "risk_score": 12.4,
         "variability_score": 19.4,
         "link_url": "www.industriemagazin.at/top-manager/markus-gärtner",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Gaertner.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/thomas-bründl",
         "nav_link_r": "www.industriemagazin.at/top-manager/marion romana-morales albinana-rosner"
@@ -4877,7 +4877,7 @@
         "risk_score": 3,
         "variability_score": 14.8,
         "link_url": "www.industriemagazin.at/top-manager/thomas-welser",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Welser-Andreas.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/johann-eggerth",
         "nav_link_r": "www.industriemagazin.at/top-manager/stefan-stolitzka"
@@ -5409,8 +5409,8 @@
         "risk_score": 5.6,
         "variability_score": 23.3,
         "link_url": "www.industriemagazin.at/top-manager/peter-untersperger",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Untersperger.jpg",
+        "description": "Der langjährige Lenzing-Boss startete 2017 nach seinem kontroversiellen Abgang als CEO der Salinen Austria neu durch. Derzeit plagen ihn Energiesorgen. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/erlfried-taurer",
         "nav_link_r": "www.industriemagazin.at/top-manager/michael-pfeifer"
     },
@@ -5695,7 +5695,7 @@
         "variability_score": 10.4,
         "link_url": "www.industriemagazin.at/top-manager/richard-stralz",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Der enorme Bedeutungsgewinn des Rohstoffes Holz hat auch dem langjährigen MM Holz Holding Vorstandschef Richard Stralz einen Schub in unserem Ranking verpasst: Rang 301.",
         "nav_link_l": "www.industriemagazin.at/top-manager/helmut-kaufmann",
         "nav_link_r": "www.industriemagazin.at/top-manager/rudolf-weinberger"
     },
@@ -5713,8 +5713,8 @@
         "risk_score": 3,
         "variability_score": 26.2,
         "link_url": "www.industriemagazin.at/top-manager/rudolf-weinberger",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Rudolf-Weinberger.jpg",
+        "description": "Der Salzburger Industrielle, zu dessen Unternehmensgruppe etwa das Eisenwerk Sulzau-Werfen gehört hat ein höchst diverses Netzwerk. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/richard-stralz",
         "nav_link_r": "www.industriemagazin.at/top-manager/wilhelm-golubich"
     },
@@ -5752,7 +5752,7 @@
         "variability_score": 27.8,
         "link_url": "www.industriemagazin.at/top-manager/martin-darbo",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Seit 1879 begann man bei Darbo, aus Früchten Konfitüren zu machen. Seit 2009 führt Martin Darbo das Unternehmen. Der neue Netzwerkfaktor Systemrelevanz hat den Mann mit der hohen Netzwerkvariabilität zusätzlichen Schwung beschert.",
         "nav_link_l": "www.industriemagazin.at/top-manager/wilhelm-golubich",
         "nav_link_r": "www.industriemagazin.at/top-manager/karl christian-handl"
     },
@@ -5999,7 +5999,7 @@
         "variability_score": 15,
         "link_url": "www.industriemagazin.at/top-manager/anette-klinger",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Die Familienunternehmerin der dritten Generation ist hat durchaus starke Ideen abseits der eigenen Branche und regionalen Verwurzelung.  ",
         "nav_link_l": "www.industriemagazin.at/top-manager/gerd lothar-tilly",
         "nav_link_r": "www.industriemagazin.at/top-manager/alain-de krassny"
     },
@@ -6151,7 +6151,7 @@
         "variability_score": 8.1,
         "link_url": "www.industriemagazin.at/top-manager/#n/a-#n/a",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Der studierte Betriebswirt hat jahrzehntelange Erfahrung in leitenden Positionen der Textil- und Chemieindustrie und verfügt über ein fundiertes Verständnis für die strategische Entwicklung internationaler Märkte.",
         "nav_link_l": "www.industriemagazin.at/top-manager/hartwig-hufnagl",
         "nav_link_r": "www.industriemagazin.at/top-manager/michael-krammer"
     },
@@ -6626,7 +6626,7 @@
         "variability_score": 4.7,
         "link_url": "www.industriemagazin.at/top-manager/philipp-lehner",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Mit einem globalen Netzwerk das selbst vor Upcycling-Videos auf der Onlineplattform TikTok nicht halt macht geht der Erbe des Familienunternehmens mit Startup Spirit an die Expansion des Kunststoffherstellers. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/norbert-haslacher",
         "nav_link_r": "www.industriemagazin.at/top-manager/manfred-bartalszky"
     },
@@ -6664,7 +6664,7 @@
         "variability_score": 19.3,
         "link_url": "www.industriemagazin.at/top-manager/sebastian-wolf",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Der ehemalige Finanzchef und seit August 2022 CEO des Feuerwehrausrüsters Rosenbauer leistete einiges an Aufräumarbeiten bei Rosenbauer. Er rückte in seiner Funktion deutlich vor.",
         "nav_link_l": "www.industriemagazin.at/top-manager/manfred-bartalszky",
         "nav_link_r": "www.industriemagazin.at/top-manager/christina johanna-wilfinger"
     },
@@ -7214,8 +7214,8 @@
         "risk_score": 3,
         "variability_score": 19.2,
         "link_url": "www.industriemagazin.at/top-manager/markus-mitteregger",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Markus-Mitteregger-RAG.jpg",
+        "description": "Der Bedeutungsgewinn des Energieträgers Gas hat dem Boss des größten Energiespeicherunternehmens Österreichs auch in unserem Ranking einen Schub gegeben. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/marcus-frantz",
         "nav_link_r": "www.industriemagazin.at/top-manager/johann-sereinig"
     },
@@ -9134,7 +9134,7 @@
         "variability_score": 7.1,
         "link_url": "www.industriemagazin.at/top-manager/philipp-blum",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Der ältere der beiden Blum-Brüder, die die Geschicke des Vorarlberger Traditionsunternehmen leiten, führt gemeinsam mit Bruder Martin (41) den Beschlägehersteller in eine digitale Zukunft. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/nicolas-lehner",
         "nav_link_r": "www.industriemagazin.at/top-manager/alfred-hintringer"
     },
@@ -9571,7 +9571,7 @@
         "variability_score": 13.3,
         "link_url": "www.industriemagazin.at/top-manager/christina-fromme-knoch",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Die Miteigentümerin (und durchaus aktive) Aufsichtsratsvorsitzende des Baustoffherstellers Wietersdorfer gehört zu den einflussreichsten Frauen des Landes. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/anna-katharina-hilti",
         "nav_link_r": "www.industriemagazin.at/top-manager/michael-hell"
     },
@@ -9799,7 +9799,7 @@
         "variability_score": 16,
         "link_url": "www.industriemagazin.at/top-manager/katharina-list-nagl",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Die Vorstandschefin des Flugzeuginnenausrüsters aus Niederösterreich führt das Familienunternehmen mit innovativen Ansätzen zu wirtschaftlichem Erfolg. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/hans-peter-andres",
         "nav_link_r": "www.industriemagazin.at/top-manager/franz-pichler"
     },
@@ -9932,7 +9932,7 @@
         "variability_score": 10,
         "link_url": "www.industriemagazin.at/top-manager/norbert-marcher",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Der Geschäftsführer des Familienunternehmens führt den Fleischverarbeiter bereits in dritter Generation. Er punktet – in seiner Branche – mit einem Netzwerk, das besonders variabel ist. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/dominik-santner",
         "nav_link_r": "www.industriemagazin.at/top-manager/viktor-sigl"
     },
@@ -10160,7 +10160,7 @@
         "variability_score": 8.4,
         "link_url": "www.industriemagazin.at/top-manager/ewald-marco-münzer",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Der CEO eines der europaweit führenden auf die Produktion von abfallbasierten Biodiesel spezialisierten Unternehmens führt das Familienunternehmen in zweiter Generation. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/wolfgang-rohner",
         "nav_link_r": "www.industriemagazin.at/top-manager/heinz norbert-nettesheim"
     },
@@ -11300,7 +11300,7 @@
         "variability_score": 5.6,
         "link_url": "www.industriemagazin.at/top-manager/marcel-javor",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Mit Wurzeln bis ins Jahr 1880 führt der Sohn des Neugründers eines der wichtigsten Stahlhandelsunternehmens in Österreich. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/stefan-gubi",
         "nav_link_r": "www.industriemagazin.at/top-manager/victor augusto-laudano breguncci"
     },
@@ -11946,7 +11946,7 @@
         "variability_score": 3,
         "link_url": "www.industriemagazin.at/top-manager/hannes-winkler",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Der Vorstandschef des im Automobilzulieferbereich ebenso wie auch im Großhandel tätigen Mischkonzerns hat die Umsatzmilliarde geknackt. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/josef-hainzl",
         "nav_link_r": "www.industriemagazin.at/top-manager/stephan-meeder"
     },
@@ -12782,7 +12782,7 @@
         "variability_score": 7,
         "link_url": "www.industriemagazin.at/top-manager/andreas-fill",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Der Maschinenbauer führt sein Familienunternehmen von Rekordumsatz zu Rekordumsatz.  ",
         "nav_link_l": "www.industriemagazin.at/top-manager/peter-neumann",
         "nav_link_r": "www.industriemagazin.at/top-manager/gerhard-wölfel"
     },
@@ -14796,7 +14796,7 @@
         "variability_score": 5,
         "link_url": "www.industriemagazin.at/top-manager/andreas-weißenbacher",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
-        "description": "",
+        "description": "Der Salzburger Gründer und Chef des auf Nachhaltigkeit in der Wasseraufbereitung spezialisierten Unternehmens punktet mit Vernetzung. ",
         "nav_link_l": "www.industriemagazin.at/top-manager/norbert christian-hartl",
         "nav_link_r": "www.industriemagazin.at/top-manager/peter-wienerroither"
     },
