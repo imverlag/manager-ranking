@@ -108,7 +108,7 @@
         "risk_score": 18.9,
         "variability_score": 32.1,
         "link_url": "www.industriemagazin.at/top-manager/johann-strobl",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Johann-Strobl.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/alfred-stern",
         "nav_link_r": "www.industriemagazin.at/top-manager/michael-höllerer"
@@ -146,7 +146,7 @@
         "risk_score": 50.5,
         "variability_score": 53.5,
         "link_url": "www.industriemagazin.at/top-manager/peter-weinelt",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Peter-Weinelt.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/michael-höllerer",
         "nav_link_r": "www.industriemagazin.at/top-manager/georg-knill"
@@ -241,7 +241,7 @@
         "risk_score": 16.4,
         "variability_score": 8.3,
         "link_url": "www.industriemagazin.at/top-manager/hans klaus-reisch",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Hans-K.-Reisch.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/herbert-eibensteiner",
         "nav_link_r": "www.industriemagazin.at/top-manager/karl-heinz-strauss"
@@ -279,7 +279,7 @@
         "risk_score": 33.2,
         "variability_score": 26.4,
         "link_url": "www.industriemagazin.at/top-manager/edith-hlawati",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Edith-Hlawati.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/karl-heinz-strauss",
         "nav_link_r": "www.industriemagazin.at/top-manager/klemens peter-haselsteiner"
@@ -336,7 +336,7 @@
         "risk_score": 26.5,
         "variability_score": 45.1,
         "link_url": "www.industriemagazin.at/top-manager/günther-ofner",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Guenther-Ofner_2024-11-05-094904_yoci.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/patricia-neumann",
         "nav_link_r": "www.industriemagazin.at/top-manager/andreas-matthä"
@@ -374,7 +374,7 @@
         "risk_score": 39.1,
         "variability_score": 49.1,
         "link_url": "www.industriemagazin.at/top-manager/walter-oblin",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Walter-Oblin.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/andreas-matthä",
         "nav_link_r": "www.industriemagazin.at/top-manager/peter-bosek"
@@ -393,7 +393,7 @@
         "risk_score": 37.1,
         "variability_score": 5,
         "link_url": "www.industriemagazin.at/top-manager/peter-bosek",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Peter-Bosek.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/walter-oblin",
         "nav_link_r": "www.industriemagazin.at/top-manager/iris-ortner"
@@ -469,7 +469,7 @@
         "risk_score": 3.4,
         "variability_score": 49.1,
         "link_url": "www.industriemagazin.at/top-manager/peter j.-oswald",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Peter-Oswald.webp",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/stefan-pierer",
         "nav_link_r": "www.industriemagazin.at/top-manager/marcel-haraszti"
@@ -488,7 +488,7 @@
         "risk_score": 19.4,
         "variability_score": 19.4,
         "link_url": "www.industriemagazin.at/top-manager/marcel-haraszti",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Marcel-Haraszti_2024-11-05-094907_tclj.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/peter j.-oswald",
         "nav_link_r": "www.industriemagazin.at/top-manager/stefan-szyszkowitz"
@@ -507,7 +507,7 @@
         "risk_score": 25.4,
         "variability_score": 55,
         "link_url": "www.industriemagazin.at/top-manager/stefan-szyszkowitz",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Stefan-Szyszkowitz.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/marcel-haraszti",
         "nav_link_r": "www.industriemagazin.at/top-manager/thomas-arnoldner"
@@ -545,7 +545,7 @@
         "risk_score": 45,
         "variability_score": 10.3,
         "link_url": "www.industriemagazin.at/top-manager/daniela-vlad",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Daniela-Vlad.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/thomas-arnoldner",
         "nav_link_r": "www.industriemagazin.at/top-manager/gerda-holzinger-burgstaller"
@@ -583,7 +583,7 @@
         "risk_score": 19.4,
         "variability_score": 42.4,
         "link_url": "www.industriemagazin.at/top-manager/heimo-scheuch",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Heimo-Scheuch.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/gerda-holzinger-burgstaller",
         "nav_link_r": "www.industriemagazin.at/top-manager/franz-gasselsberger"
@@ -640,7 +640,7 @@
         "risk_score": 7.6,
         "variability_score": 42.7,
         "link_url": "www.industriemagazin.at/top-manager/ralph-müller",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Ralph_Mueller_a.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/christian-knill",
         "nav_link_r": "www.industriemagazin.at/top-manager/leonhard-schitter"
@@ -659,7 +659,7 @@
         "risk_score": 49.3,
         "variability_score": 19.4,
         "link_url": "www.industriemagazin.at/top-manager/leonhard-schitter",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Leonhard-Schitter_2024-11-05-094906_adut.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/ralph-müller",
         "nav_link_r": "www.industriemagazin.at/top-manager/achim-kaspar"
@@ -678,7 +678,7 @@
         "risk_score": 39.4,
         "variability_score": 29,
         "link_url": "www.industriemagazin.at/top-manager/achim-kaspar",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Achim-Kaspar.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/leonhard-schitter",
         "nav_link_r": "www.industriemagazin.at/top-manager/alejandro douglass-plater"
@@ -697,7 +697,7 @@
         "risk_score": 36.4,
         "variability_score": 19.2,
         "link_url": "www.industriemagazin.at/top-manager/alejandro douglass-plater",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Alejandro-Douglass-Plater.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/achim-kaspar",
         "nav_link_r": "www.industriemagazin.at/top-manager/peter-umundum"
@@ -716,7 +716,7 @@
         "risk_score": 29.1,
         "variability_score": 36.9,
         "link_url": "www.industriemagazin.at/top-manager/peter-umundum",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Peter-Umundum.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/alejandro douglass-plater",
         "nav_link_r": "www.industriemagazin.at/top-manager/elisabeth-stadler"
@@ -735,7 +735,7 @@
         "risk_score": 12.8,
         "variability_score": 29.7,
         "link_url": "www.industriemagazin.at/top-manager/elisabeth-stadler",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Elisabeth-Stadler.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/peter-umundum",
         "nav_link_r": "www.industriemagazin.at/top-manager/peter f.-kollmann"
@@ -754,7 +754,7 @@
         "risk_score": 59.4,
         "variability_score": 4.5,
         "link_url": "www.industriemagazin.at/top-manager/peter f.-kollmann",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Peter-F.-Kollmann.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/elisabeth-stadler",
         "nav_link_r": "www.industriemagazin.at/top-manager/wolfgang-litzlbauer"
@@ -830,7 +830,7 @@
         "risk_score": 30.8,
         "variability_score": 10.5,
         "link_url": "www.industriemagazin.at/top-manager/franz-kainersdorfer",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Franz-Kainersdorfer.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/reinhard-florey",
         "nav_link_r": "www.industriemagazin.at/top-manager/maria theresia-niss"
@@ -849,7 +849,7 @@
         "risk_score": 3,
         "variability_score": 51.7,
         "link_url": "www.industriemagazin.at/top-manager/maria theresia-niss",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Maria-Theresia-Niss.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/franz-kainersdorfer",
         "nav_link_r": "www.industriemagazin.at/top-manager/martijn arjen-van koten"
@@ -887,7 +887,7 @@
         "risk_score": 17.9,
         "variability_score": 39.9,
         "link_url": "www.industriemagazin.at/top-manager/andreas-klauser",
-        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
+        "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Andreas-Klauser.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/martijn arjen-van koten",
         "nav_link_r": "www.industriemagazin.at/top-manager/thomas-ott"
