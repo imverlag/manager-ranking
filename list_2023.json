@@ -225,7 +225,7 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/2018-herbert-eibensteiner.jpg",
         "description": "1989 nahm seine berufliche Laufbahn bei der Voestalpine als Betriebsingenieur für Instandhaltung seinen Anfang, seit 2019 ist der Manager, den Weggefähren als „korrekt aber knallhart“ beschreiben, Vorstandsvorsitzender.",
         "nav_link_l": "www.industriemagazin.at/top-manager/heinrich-schaller",
-        "nav_link_r": "https://industriemagazin.at/top-manager/hans-klaus-reisch"
+        "nav_link_r": "www.industriemagazin.at/top-manager/hans-klaus-reisch"
     },
     {
         "id": 38864,
@@ -240,7 +240,7 @@
         "sales_score": 42.1,
         "risk_score": 16.4,
         "variability_score": 8.3,
-        "link_url": "https://industriemagazin.at/top-manager/hans-klaus-reisch",
+        "link_url": "www.industriemagazin.at/top-manager/hans-klaus-reisch",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Hans-K.-Reisch.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/herbert-eibensteiner",
@@ -262,7 +262,7 @@
         "link_url": "www.industriemagazin.at/top-manager/karl-heinz-strauss",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Strauss-Karl-Heinz.jpg",
         "description": "",
-        "nav_link_l": "https://industriemagazin.at/top-manager/hans-klaus-reisch",
+        "nav_link_l": "www.industriemagazin.at/top-manager/hans-klaus-reisch",
         "nav_link_r": "www.industriemagazin.at/top-manager/edith-hlawati"
     },
     {
@@ -453,7 +453,7 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Pierer-Stefan.jpg",
         "description": "Der Selfmade-Man, der seine Karriere als Vertriebsassistent bei Hoval in Marchtrenk startete, hat sich ein veritables Mobilitätsimperium aufgebaut. Seit Juni 2022 ist er Präsident der Industriellenvereinigung Oberösterreich.",
         "nav_link_l": "www.industriemagazin.at/top-manager/franz-peter-mitterbauer",
-        "nav_link_r": "https://industriemagazin.at/top-manager/peter-j.-oswald"
+        "nav_link_r": "www.industriemagazin.at/top-manager/peter-j.-oswald"
     },
     {
         "id": 33979,
@@ -468,7 +468,7 @@
         "sales_score": 8.2,
         "risk_score": 3.4,
         "variability_score": 49.1,
-        "link_url": "https://industriemagazin.at/top-manager/peter-j.-oswald",
+        "link_url": "www.industriemagazin.at/top-manager/peter-j.-oswald",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Peter-Oswald.webp",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/stefan-pierer",
@@ -490,7 +490,7 @@
         "link_url": "www.industriemagazin.at/top-manager/marcel-haraszti",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Marcel-Haraszti_2024-11-05-094907_tclj.jpg",
         "description": "",
-        "nav_link_l": "https://industriemagazin.at/top-manager/peter-j.-oswald",
+        "nav_link_l": "www.industriemagazin.at/top-manager/peter-j.-oswald",
         "nav_link_r": "www.industriemagazin.at/top-manager/stefan-szyszkowitz"
     },
     {
@@ -681,7 +681,7 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Achim-Kaspar.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/leonhard-schitter",
-        "nav_link_r": "https://industriemagazin.at/top-manager/alejandro-douglass-plater"
+        "nav_link_r": "www.industriemagazin.at/top-manager/alejandro-douglass-plater"
     },
     {
         "id": 130823,
@@ -696,7 +696,7 @@
         "sales_score": 12.3,
         "risk_score": 36.4,
         "variability_score": 19.2,
-        "link_url": "https://industriemagazin.at/top-manager/alejandro-douglass-plater",
+        "link_url": "www.industriemagazin.at/top-manager/alejandro-douglass-plater",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Alejandro-Douglass-Plater.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/achim-kaspar",
@@ -718,7 +718,7 @@
         "link_url": "www.industriemagazin.at/top-manager/peter-umundum",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Peter-Umundum.jpg",
         "description": "",
-        "nav_link_l": "https://industriemagazin.at/top-manager/alejandro-douglass-plater",
+        "nav_link_l": "www.industriemagazin.at/top-manager/alejandro-douglass-plater",
         "nav_link_r": "www.industriemagazin.at/top-manager/elisabeth-stadler"
     },
     {
@@ -738,7 +738,7 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Elisabeth-Stadler.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/peter-umundum",
-        "nav_link_r": "https://industriemagazin.at/top-manager/peter-f.-kollmann"
+        "nav_link_r": "www.industriemagazin.at/top-manager/peter-f.-kollmann"
     },
     {
         "id": 123218,
@@ -753,7 +753,7 @@
         "sales_score": 27.5,
         "risk_score": 59.4,
         "variability_score": 4.5,
-        "link_url": "https://industriemagazin.at/top-manager/peter-f.-kollmann",
+        "link_url": "www.industriemagazin.at/top-manager/peter-f.-kollmann",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Peter-F.-Kollmann.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/elisabeth-stadler",
@@ -775,7 +775,7 @@
         "link_url": "www.industriemagazin.at/top-manager/wolfgang-litzlbauer",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Litzlbauer-Kopie.jpg",
         "description": "",
-        "nav_link_l": "https://industriemagazin.at/top-manager/peter-f.-kollmann",
+        "nav_link_l": "www.industriemagazin.at/top-manager/peter-f.-kollmann",
         "nav_link_r": "www.industriemagazin.at/top-manager/robert-zadrazil"
     },
     {
@@ -833,7 +833,7 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Franz-Kainersdorfer.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/reinhard-florey",
-        "nav_link_r": "https://industriemagazin.at/top-manager/maria-theresia-niss"
+        "nav_link_r": "www.industriemagazin.at/top-manager/maria-theresia-niss"
     },
     {
         "id": 30945,
@@ -848,11 +848,11 @@
         "sales_score": 3,
         "risk_score": 3,
         "variability_score": 51.7,
-        "link_url": "https://industriemagazin.at/top-manager/maria-theresia-niss",
+        "link_url": "www.industriemagazin.at/top-manager/maria-theresia-niss",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Maria-Theresia-Niss.jpg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/franz-kainersdorfer",
-        "nav_link_r": "https://industriemagazin.at/top-manager/martijn-arjen-van-koten"
+        "nav_link_r": "www.industriemagazin.at/top-manager/martijn-arjen-van-koten"
     },
     {
         "id": 135479,
@@ -867,10 +867,10 @@
         "sales_score": 50.4,
         "risk_score": 29.4,
         "variability_score": 14.9,
-        "link_url": "https://industriemagazin.at/top-manager/martijn-arjen-van-koten",
+        "link_url": "www.industriemagazin.at/top-manager/martijn-arjen-van-koten",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/van-Koten_003_2016_Internet_cBorealis.jpg",
         "description": "",
-        "nav_link_l": "https://industriemagazin.at/top-manager/maria-theresia-niss",
+        "nav_link_l": "www.industriemagazin.at/top-manager/maria-theresia-niss",
         "nav_link_r": "www.industriemagazin.at/top-manager/andreas-klauser"
     },
     {
@@ -889,7 +889,7 @@
         "link_url": "www.industriemagazin.at/top-manager/andreas-klauser",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/industriemagazin/Andreas-Klauser.jpg",
         "description": "",
-        "nav_link_l": "https://industriemagazin.at/top-manager/martijn-arjen-van-koten",
+        "nav_link_l": "www.industriemagazin.at/top-manager/martijn-arjen-van-koten",
         "nav_link_r": "www.industriemagazin.at/top-manager/thomas-ott"
     },
     {
@@ -966,7 +966,7 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/hubert-zajicek",
-        "nav_link_r": "www.industriemagazin.at/top-manager/marie valerie-brunner"
+        "nav_link_r": "www.industriemagazin.at/top-manager/marie-valerie-brunner"
     },
     {
         "id": 4777,
@@ -981,7 +981,7 @@
         "sales_score": 59.5,
         "risk_score": 13.6,
         "variability_score": 3,
-        "link_url": "www.industriemagazin.at/top-manager/marie valerie-brunner",
+        "link_url": "www.industriemagazin.at/top-manager/marie-valerie-brunner",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/stefan-dörfler",
@@ -1003,7 +1003,7 @@
         "link_url": "www.industriemagazin.at/top-manager/peter-unterkofler",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
-        "nav_link_l": "www.industriemagazin.at/top-manager/marie valerie-brunner",
+        "nav_link_l": "www.industriemagazin.at/top-manager/marie-valerie-brunner",
         "nav_link_r": "www.industriemagazin.at/top-manager/marcus-grausam"
     },
     {
@@ -1023,7 +1023,7 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/peter-unterkofler",
-        "nav_link_r": "www.industriemagazin.at/top-manager/hans peter-schützinger"
+        "nav_link_r": "www.industriemagazin.at/top-manager/hans-peter-schützinger"
     },
     {
         "id": 44537,
@@ -1038,7 +1038,7 @@
         "sales_score": 29.4,
         "risk_score": 9.7,
         "variability_score": 19.1,
-        "link_url": "www.industriemagazin.at/top-manager/hans peter-schützinger",
+        "link_url": "www.industriemagazin.at/top-manager/hans-peter-schützinger",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/marcus-grausam",
@@ -1060,7 +1060,7 @@
         "link_url": "www.industriemagazin.at/top-manager/susanne-riess-hahn",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
-        "nav_link_l": "www.industriemagazin.at/top-manager/hans peter-schützinger",
+        "nav_link_l": "www.industriemagazin.at/top-manager/hans-peter-schützinger",
         "nav_link_r": "www.industriemagazin.at/top-manager/sonja-brandtmayer"
     },
     {
@@ -1346,7 +1346,7 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/andreas-ludwig",
-        "nav_link_r": "www.industriemagazin.at/top-manager/hans dieter-pötsch"
+        "nav_link_r": "www.industriemagazin.at/top-manager/hans-dieter-pötsch"
     },
     {
         "id": 89821,
@@ -1361,7 +1361,7 @@
         "sales_score": 44.9,
         "risk_score": 3,
         "variability_score": 14.8,
-        "link_url": "www.industriemagazin.at/top-manager/hans dieter-pötsch",
+        "link_url": "www.industriemagazin.at/top-manager/hans-dieter-pötsch",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/martin-schaller",
@@ -1383,7 +1383,7 @@
         "link_url": "www.industriemagazin.at/top-manager/georg-kapsch",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/Kapsch-Georg.jpg",
         "description": "",
-        "nav_link_l": "www.industriemagazin.at/top-manager/hans dieter-pötsch",
+        "nav_link_l": "www.industriemagazin.at/top-manager/hans-dieter-pötsch",
         "nav_link_r": "www.industriemagazin.at/top-manager/wolfgang-hesoun"
     },
     {
@@ -1479,7 +1479,7 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/pavol-dobrocký",
-        "nav_link_r": "www.industriemagazin.at/top-manager/christian c.-pochtler"
+        "nav_link_r": "www.industriemagazin.at/top-manager/christian-c.-pochtler"
     },
     {
         "id": 36298,
@@ -1494,7 +1494,7 @@
         "sales_score": 3,
         "risk_score": 3,
         "variability_score": 43.9,
-        "link_url": "www.industriemagazin.at/top-manager/christian c.-pochtler",
+        "link_url": "www.industriemagazin.at/top-manager/christian-c.-pochtler",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/robert-lasshofer",
@@ -1516,7 +1516,7 @@
         "link_url": "www.industriemagazin.at/top-manager/karlheinz-wex",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
-        "nav_link_l": "www.industriemagazin.at/top-manager/christian c.-pochtler",
+        "nav_link_l": "www.industriemagazin.at/top-manager/christian-c.-pochtler",
         "nav_link_r": "www.industriemagazin.at/top-manager/hannes-androsch"
     },
     {
@@ -1593,7 +1593,7 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/peter-höfinger",
-        "nav_link_r": "www.industriemagazin.at/top-manager/philipp-von lattorff"
+        "nav_link_r": "www.industriemagazin.at/top-manager/philipp-von-lattorff"
     },
     {
         "id": 51520,
@@ -1608,7 +1608,7 @@
         "sales_score": 3,
         "risk_score": 3,
         "variability_score": 35.2,
-        "link_url": "www.industriemagazin.at/top-manager/philipp-von lattorff",
+        "link_url": "www.industriemagazin.at/top-manager/philipp-von-lattorff",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/joachim-schönbeck",
@@ -1630,7 +1630,7 @@
         "link_url": "www.industriemagazin.at/top-manager/erich-entstrasser",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
-        "nav_link_l": "www.industriemagazin.at/top-manager/philipp-von lattorff",
+        "nav_link_l": "www.industriemagazin.at/top-manager/philipp-von-lattorff",
         "nav_link_r": "www.industriemagazin.at/top-manager/ivan-vlaho"
     },
     {
