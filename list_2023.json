@@ -6134,13 +6134,13 @@
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
         "nav_link_l": "www.industriemagazin.at/top-manager/rainer-kalkbrener",
-        "nav_link_r": "www.industriemagazin.at/top-manager/#n/a-#n/a"
+        "nav_link_r": "www.industriemagazin.at/top-manager/aggarwal-rohit/"
     },
     {
         "id": 99999,
         "rank": 324,
-        "first_name": "#N/A",
-        "last_name": "#N/A",
+        "first_name": "Aggarwal ",
+        "last_name": "Rohit",
         "job_description": "Vorstand-Vorsitz",
         "company_name": "Lenzing Aktiengesellschaft",
         "overall_abs": 39.7,
@@ -6149,7 +6149,7 @@
         "sales_score": 4.5,
         "risk_score": 3,
         "variability_score": 8.1,
-        "link_url": "www.industriemagazin.at/top-manager/#n/a-#n/a",
+        "link_url": "www.industriemagazin.at/top-manager/aggarwal-rohit/",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "Der studierte Betriebswirt hat jahrzehntelange Erfahrung in leitenden Positionen der Textil- und Chemieindustrie und verfügt über ein fundiertes Verständnis für die strategische Entwicklung internationaler Märkte.",
         "nav_link_l": "www.industriemagazin.at/top-manager/hartwig-hufnagl",
@@ -6171,7 +6171,7 @@
         "link_url": "www.industriemagazin.at/top-manager/michael-krammer",
         "image_url": "https://s3.eu-central-1.amazonaws.com/weka-alps-media/media/autlook/dummy_profil.jpeg",
         "description": "",
-        "nav_link_l": "www.industriemagazin.at/top-manager/#n/a-#n/a",
+        "nav_link_l": "www.industriemagazin.at/top-manager/aggarwal-rohit/",
         "nav_link_r": "www.industriemagazin.at/top-manager/wolfgang-rapberger"
     },
     {
